@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Site description">
+  <meta name="author" content="Your Name">
+  <link rel="canonical" href="http://localhost:4000/">
+
+  <title>CLOUDSKIN</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom fonts for this template -->
+  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+  <!-- Custom styles for this theme -->
+  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
+  <link href="assets/css/agency.css" rel="stylesheet" />
+
+  <!-- Page container change top padding when nav shrinks -->
+  
+</head>
+
+
+  <body id="page-top">
+
+      <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">CLOUDSKIN</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#calltoaction">Objectives</a></li>
+        
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#usecases">Use Cases</a></li>
+        
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#deliverables">Deliverables</a></li>
+        
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">News</a></li>
+        
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#partners">Partners</a></li>
+        
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navigation -->
+
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text"><div class="intro-heading"><p>CLOUDSKIN</p>
+</div><div class="intro-lead-in"><p>Adaptive virtualization for AI-enabled Cloud-edge Continuum</p>
+</div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+        href="#calltoaction">Learn More</a></div>
+  </div>
+</header>
+<!-- End Header -->
+
+<section class="page-section" id="calltoaction">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Objectives</h2>
+                <hr class="light">
+                <p class="lead"><p><strong>CLOUDSKIN</strong> aims to design a cognitive cloud continuum platform to fully
+exploit the available Cloud-edge heterogeneous resources, finding the “sweet spot” between the cloud
+and the edge, and smartly adapting to changes in application behavior via AI. To facilitate automatic deployment, mobility and
+security of services, CloudSkin will build an innovative universal container-like execution abstraction based on
+WebAssembly that allows the seamless and trustworthy execution of (legacy) applications across the
+Cloud-edge continuum.</p>
+</p>
+                <div class="col-lg-12 text-center">
+                    <div class="pt-5"></div>
+                    <img src="assets/img/objectives.png" alt="Neardata architecture">
+                    <!-- <figcaption class="text-faded">CLOUDSKIN architecture overview</figcaption> -->
+                    <div class="pt-5"></div>
+                    <div style="text-align: justify;"><p><p>The goals of CLOUDSKIN are the following:</p>
+<ul>
+  <li>
+    <p><strong>Smart management for the Cloud-edge continuum:</strong> The overall objective is to leverage the generated knowledge from
+state-of-art AI methods to transparently orchestrate Cloud-edge resources. The key goal is
+to build a “Learning Plane” that, in cooperation with the application execution framework and
+continuum infrastructure, can enhance the overall orchestration of Cloud-edge resources.
+Such plane is the materialization of the cognitive cloud, where decisions on the cloud and the edge are driven
+by the continuously obtained knowledge and awareness of the computing environment through
+AI, and particularly, neural networks and statistical learning, taking the challenge of
+enabling these methods into low-power edge devices.</p>
+  </li>
+  <li>
+    <p><strong>Virtual execution for the Cloud-edge continuum:</strong> This goal focuses on a new universal and flexible execution
+abstraction, we called it “Cloud-edge cells”, that will enable the execution of legacy and
+highly granular applications in the cloud continuum. The new container-like execution abstraction will be
+based on the WebAssembly technology. It will enable the execution of the same computation on
+a wide range of cloud and embedded devices and make task execution migratable across different servers and devices in
+the continuum infrastructure. We will integrate our WebAssembly executor with Kubernetes.
+More specifically, we will contribute new features to Kubernetes that will support the efficient migration of
+WebAssembly containers between different levels of the continuum, exploiting WebAssembly’s capability for state
+serialization.</p>
+  </li>
+  <li>
+    <p><strong>Infrastructure support for the Cloud-edge continuum:</strong> This objective is to prepare the infrastructure to turn
+it into a virtual resource continuum, where the large set of Cloud-edge cells composing
+applications can be allocated flexible resources, according to their dynamically changing needs. One of the
+major challenges here is to design an infrastructure to support extremely short-lived Cloud-edge cells and
+tasks (of 1 to 10ms, or less) and extremely intense bursts with fast data access requirements. This requires
+delivering bare metal resource performance to storage, despite virtualization and dynamic reallocation, which
+today is not possible in the cloud continuum. CLOUDSKIN will achieve this by leveraging high-performance I/O
+(RDMA networking) and near-storage CPU compute capacity (GPUs, FPGAs) to the fine-grained application tasks.</p>
+  </li>
+</ul>
+</p></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- use_cases -->
+<section class="page-section bg-light" id="usecases">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Use Cases</h2>
+        
+      </div>
+    </div>
+    <hr class="light">
+
+    
+    <div class="row text-center justify-items-center pt-3">
+      
+      <div class="col-6">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-video fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading"><p>Edge orchestration and video analytics</p>
+</h4>
+        <div class="text-muted"><p>Orchestration of edge apps with matching cloud performance and the creation of AI video-analytics</p>
+</div>
+      </div>
+      
+      <div class="col-6">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-flask fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading"><p>Metabolomics</p>
+</h4>
+        <div class="text-muted"><p>Edge/on-premise batch analytics and reduction of cloud offloading for Hybrid Metaspace</p>
+</div>
+      </div>
+      
+    </div>
+    
+    <div class="row text-center justify-items-center pt-3">
+      
+      <div class="col-6">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-stethoscope fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading"><p>Surgery</p>
+</h4>
+        <div class="text-muted"><p>Real-time edge video analytics with dynamic resource allocation and Private Deep &amp; Federated Learning at the edge</p>
+</div>
+      </div>
+      
+      <div class="col-6">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x text-primary"></i>
+          <i class="fa fa-tractor fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="service-heading"><p>Agriculture IoT</p>
+</h4>
+        <div class="text-muted"><p>Dynamic cloud offloading to match detail level and creation of an IoT-based agriculture data space</p>
+</div>
+      </div>
+      
+    </div>
+    
+
+  </div>
+</section>
+<!-- End use_cases -->
+<!-- Portfolio Grid -->
+<section class="page-section" id="deliverables">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading"><p>Deliverables</p>
+</h2>
+            </div>
+        </div>
+        <hr class="light pb-5">
+        <div class="d-flex align-content-around flex-wrap justify-content-center">
+            
+            <div class="m-2">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">D1.1 Example Deliverable</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">This is an example deliverable card description</h6>
+                      <a href="\#" class="card-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+<div class="portfolio-modal modal fade" id="p1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- news Details Go Here -->
+              <h2 class="text-uppercase">Title</h2>
+              <p class="item-intro text-muted">subtitle lorem ipsum dolor sit amet consectetur.</p>
+              <img class="img-fluid d-block mx-auto" src="https://place-hold.it/400x300" alt="image alt text" />
+              <p><p>Use this area to describe your project. <strong>Markdown</strong> supported.</p>
+
+<p>optional info list (delete if not using):</p>
+
+<ul class="list-inline">
+  <li>Date:</li>
+  <li>Client:</li>
+  <li>Category:</li>
+</ul>
+
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Grid -->
+<section class="page-section bg-light" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading"><p>News</p>
+</h2>
+      </div>
+    </div>
+    <hr class="light pb-5">
+    <div class="row">
+      
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#p1">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class=" fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="https://place-hold.it/400x300" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Example News</h4>
+          <p class="text-muted">Hello</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+<div class="portfolio-modal modal fade" id="p1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- news Details Go Here -->
+              <h2 class="text-uppercase">Title</h2>
+              <p class="item-intro text-muted">subtitle lorem ipsum dolor sit amet consectetur.</p>
+              <img class="img-fluid d-block mx-auto" src="https://place-hold.it/400x300" alt="image alt text" />
+              <p><p>Use this area to describe your project. <strong>Markdown</strong> supported.</p>
+
+<p>optional info list (delete if not using):</p>
+
+<ul class="list-inline">
+  <li>Date:</li>
+  <li>Client:</li>
+  <li>Category:</li>
+</ul>
+
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Clients -->
+<section class="page-section" id="partners">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Partners</h2>
+      </div>
+    </div>
+    <hr class="light">
+    <h3 class="section-subheading text-center mt-5">The CloudSkin consortium is a well-balanced team of industrial and academic partners</h3>
+    <section class="py-1" id=" clients">
+      <div class="container">
+        <div class="row" >
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.urv.cat/es/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/urv.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.bsc.es/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/bsc.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://tu-dresden.de/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/tud.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.nearbycomputing.com/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/nearby.jpg" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://alternatecno.es/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/alterna.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.embl.org/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/embl.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.kionetworks.com/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/kio-nube.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.dkfz.de/de/index.html">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/dkfz.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.cellnex.com/es">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/tradia.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.dell.com/en-us">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/dell.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.zurich.ibm.com/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/ibm.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 mb-5">
+            <a href="https://www.imperial.ac.uk/">
+              <img class="partner-img img-fluid d-block mx-auto" src="assets/img/partners/ICL.png" alt=""
+                style="max-height:  100px">
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+<!-- About -->
+<section class="page-section bg-light" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">About</h2>
+      </div>
+    </div>
+    <hr class="light">
+    <div class="row justify-content-center">
+      <div clasS="col-auto">
+        <table class="table-responsive about-table">
+          <tbody>
+            <tr>
+              <td><strong>Project title</strong></td>
+              <td>CloudSkin: Adaptive virtualization
+                for AI-enabled Cloud-edge Continuum</td>
+            </tr>
+            <tr>
+              <td><strong>Grant agreement ID</strong></td>
+              <td><a href="https://doi.org/10.3030/101092646">101092646</a></td>
+            </tr>
+            <tr>
+              <td><strong>Coordinator</strong></td>
+              <td>Dr. Pedro García López</td>
+            </tr>
+            <tr>
+              <td><strong>Partners</strong></td>
+              <td>
+                <a href="http://www.urv.cat/en/" target="_blank">Universitat Rovira i
+                  Virgili</a> (Spain)
+                <br>
+                <a href="https://www.bsc.es/" target="_blank">Barcelona Supercomputing
+                  Center</a> (Spain)
+                <br>
+                <a href="https://tu-dresden.de/" target="_blank">Technische Universität
+                  Dresden</a> (Germany)
+                <br>
+                <a href="https://www.nearbycomputing.com/" target="_blank">Nearby
+                  Computing SL</a> (Spain)
+                <br>
+                <a href="https://alternatecno.es/" target="_blank">Alterna Tecnologías
+                  SL</a> (Spain)
+                <br>
+                <a href="https://www.embl.de/" target="_blank">European Molecular Biology
+                  Laboratory</a> (Germany)
+                <br>
+                <a href="https://www.kionetworks.com/" target="_blank">KIO Networks España
+                  SA</a> (Spain)
+                <br>
+                <a href="https://www.dkfz.de/de/index.html" target="_blank">Deutsches
+                  Krebsforschungszentrum
+                  Heidelberg </a> (Germany)
+                <br>
+                <a href="https://www.cellnex.com/es" target="_blank">Tradia Telecom SA</a>
+                (Spain)
+                <br>
+                <a href="https://www.dell.com/en-us" target="_blank">EMC Information
+                  Systems International
+                  Unlimited Company </a> (Ireland)
+                <br>
+                <a href="https://www.zurich.ibm.com/" target="_blank">IBM Research
+                  GMBH</a> (Switzerland)
+                <br>
+                <a href="https://www.imperial.ac.uk/" target="_blank">Imperial College of
+                  Science, Technology
+                  and Medicine
+                </a> (United Kingdom)
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Duration</strong></td>
+              <td>01 Jan 2023 - 31 Dec 2025</td>
+            </tr>
+            <tr>
+              <td><strong>Overall budget</strong></td>
+              <td>3,405,322.50€</td>
+            </tr>
+            <tr>
+              <td><strong>Programme</strong></td>
+              <td>
+                Horizon > WORLD LEADING DATA AND COMPUTING TECHNOLOGIES 2022
+                (HORIZON-CL4-2022-DATA-01)
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Topic</strong></td>
+              <td>HORIZON-CL4-2022-DATA-01-02</td>
+            </tr>
+            <tr>
+              <td><strong>Funding scheme</strong></td>
+              <td>HORIZON-RIA HORIZON Research and Innovation
+                Actions</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->
+<section class="page-section" id="contact">
+  <div class="container">
+    <!-- <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading"></h2>
+      </div>
+    </div>
+    <hr class="light">
+    <h3 class="section-subheading text-center mt-5"></h3> -->
+    <div class="row justify-content-center">
+      <div class="col-md-4 text-center">
+        <h3>Contact us</h3>
+        <p class="pt-1"><p><strong>Project Coordinator</strong></p>
+
+<p>Prof. Pedro García López</p>
+
+<p>pedro.garcia@urv.cat</p>
+</p>
+      </div>
+      <!-- <div class="col-md-4 text-center social-buttons">
+        <h3>Keep in touch</h3>
+        <ul class="list-inline">
+          <li class="pt-5">
+              <a href="http://twitter.com/cloudbutton2020" class="btn-social btn-outline"><i class="fab fa-fw fa-twitter"></i></a>
+          </li>
+          <li clasS="pt-5">
+              <a href="https://www.youtube.com/channel/UCJTICoSQJXlfgkoYP3-ltUA" class="btn-social btn-outline"><i class="fab fa-fw fa-youtube"></i></a>
+          </li>
+          <li>
+              <a href="http://github.com/cloudbutton" class="btn-social btn-outline"><i class="fab fa-fw fa-github"></i></a>
+          </li>
+      </ul>
+      </div> -->
+      <div class="col-md-4 text-center">
+        <img class="img-fluid d-block mx-auto flag" src="assets/img/europe.jpg" alt="EU Flag">
+        <p class="pt-1"><p><strong>CLOUDSKIN</strong> has received funding from the European Union’s Horizon research and innovation programme under grant agreement No 101092646.</p>
+</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	  <!-- <!-- Footer -->
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <span class="copyright"
+          >Copyright &copy; CLOUDSKIN 2023</span
+        >
+      </div>
+      <!-- Social Media -->
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          
+          <li class="list-inline-item">
+            
+            <a href="https://twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+            
+          </li>
+          
+          <li class="list-inline-item">
+            
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            
+          </li>
+          
+          <li class="list-inline-item">
+            
+            <a href="https://linkedin.com">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            
+          </li>
+          
+          <li class="list-inline-item">
+            
+            <a href="https://github.com/raviriley/agency-jekyll-theme">
+              <i class="fab fa-github"></i>
+            </a>
+            
+          </li>
+          
+          <li class="list-inline-item">
+            
+            <a href="https://instagram.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+            
+          </li>
+          
+        </ul>
+      </div>
+      <!-- Legal -->
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item">
+            <p class="muted">hello</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- End Footer -->
+ -->
+
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="assets/js/jquery.min.js"></script>
+	  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+	  <!-- Plugin JavaScript -->
+	  <script src="assets/js/jquery.easing.min.js"></script>
+
+	  <!-- Contact form JavaScript -->
+	  <script src="assets/js/jqBootstrapValidation.js"></script>
+	  <script src="assets/js/contact_me.js"></script>
+
+	  <!-- Custom scripts for this template -->
+	  <script src="assets/js/agency.min.js"></script>
+
+  </body>
+</html>
