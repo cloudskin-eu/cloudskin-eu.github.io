@@ -15,7 +15,7 @@ objectives:
     security of services, CloudSkin will build an innovative universal container-like execution abstraction based on
     WebAssembly that allows the seamless and trustworthy execution of (legacy) applications across the
     Cloud-edge continuum.
-  image: objectives.png
+  image: cloudskin_overview.png
   text2: |
     The goals of CLOUDSKIN are the following:
       - **Smart management for the Cloud-edge continuum:** The overall objective is to leverage the generated knowledge from
