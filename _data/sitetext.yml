@@ -49,14 +49,6 @@ objectives:
         CloudSkin brochure
         CloudSkin roll-up 
 
-  section: clients
-  max-height: 100px
-  horizontal-scrolling: "" #"yes/no"
-    list:
-    - name: CloudSkin Brochure
-      url: https://cloudskin.eu/assets/deliverables/CloudSkin_Brochure.pdf
-    - name: CloudSkin Roll-up 
-      url: https://cloudskin.eu/assets/deliverables/CloudSkin_Roll-up.pdf
 
 header:
   title: CLOUDSKIN
