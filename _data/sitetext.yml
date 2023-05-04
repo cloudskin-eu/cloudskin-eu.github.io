@@ -9,7 +9,7 @@
 
 objectives:
   text1: |
-    **CLOUDSKIN** aims to design a cognitive cloud continuum platform to fully
+    **CloudSkin** aims to design a cognitive cloud continuum platform to fully
     exploit the available Cloud-edge heterogeneous resources, finding the “sweet spot” between the cloud
     and the edge, and smartly adapting to changes in application behavior via AI. To facilitate automatic deployment, mobility and
     security of services, CloudSkin will build an innovative universal container-like execution abstraction based on
@@ -17,7 +17,7 @@ objectives:
     Cloud-edge continuum.
   image: cloudskin-overview.png
   text2: |
-    The goals of CLOUDSKIN are the following:
+    The goals of CloudSkin are the following:
       - **Smart management for the Cloud-edge continuum:** The overall objective is to leverage the generated knowledge from
         state-of-art AI methods to transparently orchestrate Cloud-edge resources. The key goal is
         to build a “Learning Plane” that, in cooperation with the application execution framework and
@@ -45,6 +45,18 @@ objectives:
         delivering bare metal resource performance to storage, despite virtualization and dynamic reallocation, which
         today is not possible in the cloud continuum. CLOUDSKIN will achieve this by leveraging high-performance I/O
         (RDMA networking) and near-storage CPU compute capacity (GPUs, FPGAs) to the fine-grained application tasks.
+
+        CloudSkin brochure
+        CloudSkin roll-up 
+
+  section: clients
+  max-height: 100px
+  horizontal-scrolling: "" #"yes/no"
+    list:
+    - name: CloudSkin Brochure
+      url: https://cloudskin.eu/assets/deliverables/CloudSkin_Brochure.pdf
+    - name: CloudSkin Roll-up 
+      url: https://cloudskin.eu/assets/deliverables/CloudSkin_Roll-up.pdf
 
 header:
   title: CLOUDSKIN
