@@ -44,10 +44,7 @@ objectives:
         tasks (of 1 to 10ms, or less) and extremely intense bursts with fast data access requirements. This requires
         delivering bare metal resource performance to storage, despite virtualization and dynamic reallocation, which
         today is not possible in the cloud continuum. CLOUDSKIN will achieve this by leveraging high-performance I/O
-        (RDMA networking) and near-storage CPU compute capacity (GPUs, FPGAs) to the fine-grained application tasks.
-
-        CloudSkin brochure
-        CloudSkin roll-up 
+        (RDMA networking) and near-storage CPU compute capacity (GPUs, FPGAs) to the fine-grained application tasks. 
 
 
 header:
