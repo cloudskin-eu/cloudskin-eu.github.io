@@ -75,27 +75,14 @@ use_cases:
 deliverables:
   title: Deliverables
   deliverables:
-    - title: D1.1 Project Website
+    - title: Deliverable 1.1
       subtitle: Public Project Website
       file: ../assets/deliverables/CloudSkin_D1.1_Public.pdf
-      - title: D1.1 Project Website
-      subtitle: Public Project Website
+      - title: Deliverable 2.1
+      subtitle: Experiments, Initial Specifications and Testbed specs
       file: ../assets/deliverables/CloudSkin_D2.1_Public.pdf
-      - title: D1.1 Project Website
-      subtitle: Public Project Website
-      file: ../assets/deliverables/CloudSkin_D2.2_Public.pdf
-      - title: D1.1 Project Website
-      subtitle: Public Project Website
-      file: ../assets/deliverables/CloudSkin_D3.1_Public.pdf
-      - title: D1.1 Project Website
-      subtitle: Public Project Website
-      file: ../assets/deliverables/CloudSkin_D4.1_Public.pdf
-      - title: D1.1 Project Website
-      subtitle: Public Project Website
-      file: ../assets/deliverables/CloudSkin_D5.1_Public.pdf
-      - title: D1.1 Project Website
-      subtitle: Public Project Website
-      file: ../assets/deliverables/CloudSkin_D6.1_Public.pdf
+     
+      
 
 
 news:
