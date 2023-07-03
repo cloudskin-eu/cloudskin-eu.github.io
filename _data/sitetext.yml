@@ -81,6 +81,9 @@ deliverables:
       - title: Deliverable 2.1
       subtitle: Experiments, Initial Specifications and Testbed specs
       file: ../assets/deliverables/CloudSkin_D2.1_Public.pdf
+      - title: Deliverable 2.2
+      subtitle: Data Management Plan, 1st version
+      file: ../assets/deliverables/CloudSkin_D2.2_Public.pdf
      
       
 
