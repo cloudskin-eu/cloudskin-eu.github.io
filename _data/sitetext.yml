@@ -75,22 +75,22 @@ use_cases:
 deliverables:
   title: Deliverables
   deliverables:
-    - title: Deliverable 1.1
+    - title: D1.1
       subtitle: Public Project Website
       file: ../assets/deliverables/CloudSkin_D1.1_Public.pdf
-    - title: Deliverable 2.1
+    - title: D2.1
       subtitle: Experiments, Initial Specifications and Testbed specs
       file: ../assets/deliverables/CloudSkin_D2.1_Public.pdf
-    - title: Deliverable 2.2
+    - title: D2.2
       subtitle: Data Management Plan, 1st version
       file: ../assets/deliverables/CloudSkin_D2.2_Public.pdf
-    - title: Deliverable 3.1
+    - title: D3.1
       subtitle: Early release of Ephemeral Data Store
       file: ../assets/deliverables/CloudSkin_D3.1_Public.pdf
-    - title: Deliverable 4.1
+    - title: D4.1
       subtitle: Initial prototype for Cloud-edge cells
       file: ../assets/deliverables/CloudSkin_D4.1_Public.pdf
-    - title: Deliverable 5.1
+    - title: D5.1
       subtitle: Design and early prototype of CLOUDSKIN Learning Plane
       file: ../assets/deliverables/CloudSkin_D5.1_Public.pdf
     - title: D6.1
