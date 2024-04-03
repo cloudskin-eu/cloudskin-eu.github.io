@@ -87,7 +87,7 @@ deliverables:
     - title: D3.1
       subtitle: Early release of Ephemeral Data Store
       file: ../assets/deliverables/CloudSkin_D3.1_Public.pdf
-      - title: D3.2
+    - title: D3.2
       subtitle: Ephemeral Data Store Release Candidate and Specifications
       file: ../assets/deliverables/CloudSkin_D3.2_Public.pdf
     - title: D4.1
