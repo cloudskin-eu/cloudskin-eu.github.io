@@ -14,11 +14,13 @@ nav:
     section: calltoaction
   - title: "Use Cases"
     section: usecases
-  - title: "Deliverables"
-    section: deliverables
+  - title: "Results"
+    section: results
   - title: "News"
     section: portfolio
   - title: "Partners"
     section: partners
+  - title: "Review"
+    url: "/review"
   - title: "About"
     section: about

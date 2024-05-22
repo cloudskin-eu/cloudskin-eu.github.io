@@ -72,8 +72,8 @@ use_cases:
         subtitle: Dynamic cloud offloading to match detail level and creation of an IoT-based agriculture data space
         favicon: fa-tractor
 
-deliverables:
-  title: Deliverables
+results:
+  title: Results
   deliverables:
     - title: D1.1
       subtitle: Public Project Website
@@ -99,10 +99,33 @@ deliverables:
     - title: D6.1
       subtitle: Communication Plan
       file: ../assets/deliverables/CloudSkin_D6.1_Public.pdf
-     
-      
+  publications:
+    - title: To be included
+      link: "#"
 
-
+review:
+  events:
+    - time: "9:00"
+      subject: To be included
+      duration: 30 mins
+      lead: Universitat Rovira i Virgili
+  slides: 
+    - title: To be included
+      link: "#"
+  videos:
+    - title: To be included
+      video: "#"
+      slides: "#"
+  summaries:
+    - shortname: To be included
+      partner: URV
+      link: "#"
+  artifacts:
+    - title: To be included
+      description: Definitive cloud-edge software stack
+      link: "#"
+  
+  
 news:
   title: News
 
