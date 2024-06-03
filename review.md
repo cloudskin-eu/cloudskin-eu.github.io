@@ -7,13 +7,13 @@ background: grey
 	<h2 class="section-heading text-uppercase">Cloudskin project review</h2>
 </div>
 
-#### Final Review Agenda
+#### Review Agenda
 
-__Meeting Subject__: Cloudskin final review
+__Meeting Subject__: Cloudskin review
 
-__Venue__: Webex meeting
+__Venue__: Microsoft Teams
 
-__Date__: TBA
+__Date__: June, 11 
 
 __Chair__: Marc Sánchez Artigas (Coordinator)
 
@@ -39,6 +39,7 @@ __Chair__: Marc Sánchez Artigas (Coordinator)
 			{% endfor %}
 		</tbody>
 	</table>
+	* We assume reviewers watched videos previously
 </div>
 
 #### Review Slides
@@ -98,8 +99,8 @@ __Chair__: Marc Sánchez Artigas (Coordinator)
 		<tbody>
 			{% for deliverable in site.data.sitetext.results.deliverables %}
 			<tr>
-				<td>{{ deliverable.title }}</td>
-				<td><a href="{{ deliverable.link }}"><i class="fas fa-external-link-alt"></i></a></td>
+				<td>{{ deliverable.title }}  {{ deliverable.subtitle }}</td>
+				<td><a href="{{ deliverable.file }}"><i class="fas fa-external-link-alt"></i></a></td>
 			</tr>
 			{% endfor %}
 		</tbody>
