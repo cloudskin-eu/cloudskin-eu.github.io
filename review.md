@@ -13,7 +13,7 @@ __Meeting Subject__: Cloudskin review
 
 __Venue__: Microsoft Teams
 
-__Date__: June, 11 
+__Date__: July 11, 2024
 
 __Chair__: Marc Sánchez Artigas (Coordinator)
 
