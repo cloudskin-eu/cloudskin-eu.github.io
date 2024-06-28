@@ -84,21 +84,39 @@ results:
     - title: D2.2
       subtitle: Data Management Plan, 1st version
       file: ../assets/deliverables/CloudSkin_D2.2_Public.pdf
+    - title: D2.3
+      subtitle: CLOUDSKIN Architecture Specs and Early Prototypes
+      file: ../assets/deliverables/CloudSkin_D2.4_Public.pdf
+    - title: D2.4
+      subtitle: Data Management Plan, 2nd version
+      file: ../assets/deliverables/CloudSkin_D2.4_Public.pdf
     - title: D3.1
       subtitle: Early release of Ephemeral Data Store
       file: ../assets/deliverables/CloudSkin_D3.1_Public.pdf
     - title: D3.2
       subtitle: Ephemeral Data Store Release Candidate and Specifications
       file: ../assets/deliverables/CloudSkin_D3.2_Public.pdf
+    - title: D3.3
+      subtitle: Active Ephemeral Data Store Release Candidate and Specification
+      file: ../assets/deliverables/CloudSkin_D3.3_Public.pdf
     - title: D4.1
       subtitle: Initial prototype for Cloud-edge cells
       file: ../assets/deliverables/CloudSkin_D4.1_Public.pdf
+    - title: D4.2
+      subtitle: Cloud-edge cells Release Candidate and Specifications
+      file: ../assets/deliverables/CloudSkin_D4.2_Public.pdf
     - title: D5.1
       subtitle: Design and early prototype of CLOUDSKIN Learning Plane
       file: ../assets/deliverables/CloudSkin_D5.1_Public.pdf
+    - title: D5.2
+      subtitle: Learning methods for Infrastructure and Workload management
+      file: ../assets/deliverables/CloudSkin_D5.2_Public.pdf
     - title: D6.1
       subtitle: Communication Plan
       file: ../assets/deliverables/CloudSkin_D6.1_Public.pdf
+    - title: D6.2
+      subtitle: Communication Report
+      file: ../assets/deliverables/CloudSkin_D6.2_Public.pdf
   publications:
     - title: To be included
       link: "#"
