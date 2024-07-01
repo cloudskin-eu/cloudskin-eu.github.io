@@ -9,13 +9,13 @@ background: grey
 
 #### Review Agenda
 
-__Meeting Subject__: Cloudskin review
+__Meeting Subject__: Project midterm review
 
-__Venue__: Microsoft Teams
+__Venue__: Online  - Microsoft Teams
 
 __Date__: July 11, 2024
 
-__Chair__: Marc Sánchez Artigas (Coordinator)
+__Chair__: Marc Sánchez-Artigas (Coordinator)
 
 
 <div class="col-lg-12 text-center mt-4 mb-4">
