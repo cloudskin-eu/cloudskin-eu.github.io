@@ -136,7 +136,7 @@ review:
       duration: 15 mins
       lead: Coordinator
     - time: "9:45"
-      subject: WP2 - Architecture and use cases - Metabolomics use case (5 mins), CAS use case (5 mins) and WP2 – Architecture (20 mins). Q&A
+      subject: WP2 - Architecture and use cases - Metabolomics use case (5 mins), CAS use case (5 mins) and WP2 Architecture (20 mins). Q&A
       duration: 35 mins
       lead: EMBL, NCT, coordinator
     - time: "10:20"
@@ -146,7 +146,7 @@ review:
     - time: "10:30"
       subject: WP3 - Infrastructure Support for the Cloud-edge continuum (20 mins). Q&A
       duration: 30 mins
-      lead: IMB
+      lead: IBM
     - time: "11:00"
       subject: WP4 – Virtual Execution for the Cloud-edge Continuum (20 mins). Q&A
       duration: 30 mins
@@ -164,7 +164,7 @@ review:
       duration: 10 mins
       lead: Coordinator
     - time: "12:35"
-      subject: Private meeting - reviewers and PO Oral feedback from reviewers and comment from project
+      subject: Private meeting - Reviewers and PO. Oral feedback from reviewers and comment from project
       duration: 20 mins
       lead: PO
     - time: "12:55"
@@ -172,13 +172,40 @@ review:
       duration: 5 mins
       lead: PO
     
-    
+
   slides: 
-    - title: To be included
+    - title: WP2
+      link: "https://docs.google.com/presentation/d/1kcERbSR0tq4InuXFAMdWAyLbmpBIj4KX/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP3
+      link: "https://docs.google.com/presentation/d/1k3q_eT4h22O1uSANjVOq1Sr9W98h0Mng/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP4
+      link: "https://docs.google.com/presentation/d/10qUJObjNjYgQECPhwshMKxqXtCdlVAW1/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5 - Edge orchestration and video analytics use case
       link: "#"
+    - title: WP5 - Metabolomics use case
+      link: "https://docs.google.com/presentation/d/1FajtgyibYby6qaLK6rtadYZos61Q5kEd/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5 - Surgery (CAS) use case
+      link: "https://docs.google.com/presentation/d/1tTmHGqdHu0dA_ZJ9eTc7w3ugoJhStPrn/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5 - Agriculture IoT
+      link: "#"
+    - title: WP6 
+      link: "#"
+
   videos:
-    - title: To be included
-      video: "#"
+    - title: WP4 - Dell-IBM Pravega GEDS integration
+      video: "https://drive.google.com/file/d/1dEwQmi5DBq5UInC2fFV7C88iOpEPzw6i/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - Promotional video of the Agriculture use case
+      video: "https://www.youtube.com/watch?v=HJxf5fhtlAs"
+      slides: "#"
+    - title: WP5 - Demo application placement for the mobility use case
+      video: "https://drive.google.com/file/d/18lKZnt6KDfRa7ZuKX4ry1rOUN7_fZVjw/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - Metabolomics demo
+      video: "https://drive.google.com/file/d/18lKZnt6KDfRa7ZuKX4ry1rOUN7_fZVjw/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - NCT-DELL Pravega Cluster
+      video: "https://drive.google.com/file/d/1WB9aCk7-E6nJ94W0yZuxQfhG3M90TFLO/view?usp=drive_link"
       slides: "#"
   summaries:
     - shortname: To be included
@@ -186,7 +213,7 @@ review:
       link: "#"
   artifacts:
     - title: To be included
-      description: Definitive cloud-edge software stack
+      description: To be included
       link: "#"
   
   
