@@ -108,7 +108,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 </div>
 
 #### Summary reports
-<!-- <div class="col-lg-12 text-center mt-4 mb-4">
+ <div class="col-lg-12 text-center mt-4 mb-4">
 	<table class="table table-striped" style="text-align: left">
 		<thead>
 			<tr>
@@ -127,7 +127,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 			{% endfor %}
 		</tbody>
 	</table>
-</div> -->
+</div> 
 
 #### Software results
 <div class="col-lg-12 text-center mt-4 mb-4">
