@@ -178,16 +178,16 @@ review:
       link: "https://docs.google.com/presentation/d/1k3q_eT4h22O1uSANjVOq1Sr9W98h0Mng/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP4
       link: "https://docs.google.com/presentation/d/10qUJObjNjYgQECPhwshMKxqXtCdlVAW1/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - Edge orchestration and video analytics use case
+    - title: x WP5 - Edge orchestration and video analytics use case
       link: "#"
     - title: WP5 - Metabolomics use case
       link: "https://docs.google.com/presentation/d/1FajtgyibYby6qaLK6rtadYZos61Q5kEd/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP5 - Surgery (CAS) use case
       link: "https://docs.google.com/presentation/d/1tTmHGqdHu0dA_ZJ9eTc7w3ugoJhStPrn/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - Agriculture IoT use case
+    - title: x WP5 - Agriculture IoT use case
       link: "#"
-    - title: WP6 
-      link: "#"
+    - title: WP6 - Promoting impact
+      link: "https://docs.google.com/presentation/d/1T5LQ69ncVJgHMysiZ6FNyuizohHpJr9U/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
 
   videos:
     - title: WP4 - Dell-IBM Pravega GEDS integration
@@ -200,7 +200,7 @@ review:
       video: "https://drive.google.com/file/d/18lKZnt6KDfRa7ZuKX4ry1rOUN7_fZVjw/view?usp=drive_link"
       slides: "#"
     - title: WP5 - Metabolomics demo
-      video: "https://drive.google.com/file/d/18lKZnt6KDfRa7ZuKX4ry1rOUN7_fZVjw/view?usp=drive_link"
+      video: "https://drive.google.com/file/d/1c6EidXX_lMRh_92F8acI50PDAdvuKlYq/view?usp=sharing"
       slides: "#"
     - title: WP5 - NCT-DELL Pravega Cluster
       video: "https://drive.google.com/file/d/1WB9aCk7-E6nJ94W0yZuxQfhG3M90TFLO/view?usp=drive_link"
@@ -229,7 +229,7 @@ review:
       link: "#"
     - title: Agricultural Dataspace 
       description: Data space for agriculture is capable of attracting data providers, to whom it offers mechanisms of reliability and use of information, capable of starting the generation around this platfotm.
-      link: "#"
+      link: "https://cloudskin.alternatecno.es/dataspace.html"
     - title: Surgical Navigation 
       description: Surgical navigation, where segmentation, 3D mapping, and other extracted features are combined with pre-operative models to provide visual guideance.
       link: "#"
@@ -241,7 +241,7 @@ review:
       link: "https://github.com/faasm/faabric"
     - title: Glider 
       description: Glider ephemeral storage system with in-storage computation.
-      link: "https://github.com/neardata-eu/glider-store"
+      link: "https://github.com/CLOUDLAB-URV/glider-store"
   
   
 news:

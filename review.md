@@ -107,8 +107,9 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 	</table>
 </div>
 
+<!--
 #### Summary reports
-<!-- <div class="col-lg-12 text-center mt-4 mb-4">
+ <div class="col-lg-12 text-center mt-4 mb-4">
 	<table class="table table-striped" style="text-align: left">
 		<thead>
 			<tr>
