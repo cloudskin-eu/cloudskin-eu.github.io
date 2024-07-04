@@ -222,16 +222,13 @@ review:
       description: GEDS implements the efficient caching and exchange of ephemeral data using the load/store semantics of an object store.
       link: "#"
     - title: ConfidentialQuark 
-      description: Equipping prominent fields such as
-Artificial Intelligence and serverless computing with a confidential approach would be essential for various use cases in the future.
+      description: Equipping prominent fields such as Artificial Intelligence and serverless computing with a confidential approach would be essential for various use cases in the future.
       link: "#"
     - title: NearbyOne v2.0 
-      description: NearbyOne platform carries intra- and
-inter-domain orchestration capabilities and addresses the problem of xNF (CNF, VNF, etc.), as well as application orchestration in the cloud continuum.
+      description: NearbyOne platform carries intra- and inter-domain orchestration capabilities and addresses the problem of xNF (CNF, VNF, etc.), as well as application orchestration in the cloud continuum.
       link: "#"
     - title: Agricultural Dataspace 
-      description: Data space for agriculture is capable of
-attracting data providers, to whom it offers mechanisms of reliability and use of information, capable of starting the generation around this platfotm.
+      description: Data space for agriculture is capable of attracting data providers, to whom it offers mechanisms of reliability and use of information, capable of starting the generation around this platfotm.
       link: "#"
     - title: Surgical Navigation 
       description: Surgical navigation, where segmentation, 3D mapping, and other extracted features are combined with pre-operative models to provide visual guideance.
