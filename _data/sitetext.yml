@@ -216,8 +216,7 @@ review:
       description: An open source framework for big data analytics and embarrassingly parallel jobs, that provides an universal API for building parallel applications in the cloud.
       link: "https://lithops-cloud.github.io/"
     - title: Data-connector 
-      description: Open-source software data-connector as an
-agent framework for smart and autonomous management.
+      description: Open-source software data-connector as an agent framework for smart and autonomous management.
       link: "#"
     - title: Generic Ephemeral Data Store (GEDS) 
       description: GEDS implements the efficient caching and exchange of ephemeral data using the load/store semantics of an object store.
