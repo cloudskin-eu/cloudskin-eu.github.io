@@ -205,10 +205,12 @@ review:
     - title: WP5 - NCT-DELL Pravega Cluster
       video: "https://drive.google.com/file/d/1WB9aCk7-E6nJ94W0yZuxQfhG3M90TFLO/view?usp=drive_link"
       slides: "#"
+  
   summaries:
     - shortname: To be included
       partner: URV
       link: "#"
+  
   artifacts:
     - title: Lithops Serve
       description: An open source framework for big data analytics and embarrassingly parallel jobs, that provides an universal API for building parallel applications in the cloud.
