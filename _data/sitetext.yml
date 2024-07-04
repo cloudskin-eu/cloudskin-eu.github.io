@@ -124,24 +124,20 @@ results:
 review:
   events:
     - time: "9:00"
-      subject: Private meeting with reviewers and PO
-      duration: 15 mins
-      lead: PO
-    - time: "9:15"
       subject: Welcome! Presentation of Participants
       duration: 15 mins
       lead: Coordinator
-    - time: "9:30"
+    - time: "9:15"
       subject:  Project Overview 
       duration: 15 mins
       lead: Coordinator
-    - time: "9:45"
+    - time: "9:30"
       subject: WP2 - Architecture and use cases - Metabolomics use case (5 mins), CAS use case (5 mins) and WP2 Architecture (20 mins). Q&A
-      duration: 35 mins
+      duration: 40 mins
       lead: EMBL, NCT, coordinator
-    - time: "10:20"
+    - time: "10:10"
       subject: Coffee break
-      duration: 10 mins
+      duration: 20 mins
       lead: 
     - time: "10:30"
       subject: WP3 - Infrastructure Support for the Cloud-edge continuum (20 mins). Q&A
@@ -174,6 +170,8 @@ review:
     
 
   slides: 
+    - title: WP1
+      link: "https://docs.google.com/presentation/d/1u31rqy_2H6IJI2AtJBFouQg7TtFizoTH/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP2
       link: "https://docs.google.com/presentation/d/1kcERbSR0tq4InuXFAMdWAyLbmpBIj4KX/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP3
@@ -186,7 +184,7 @@ review:
       link: "https://docs.google.com/presentation/d/1FajtgyibYby6qaLK6rtadYZos61Q5kEd/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP5 - Surgery (CAS) use case
       link: "https://docs.google.com/presentation/d/1tTmHGqdHu0dA_ZJ9eTc7w3ugoJhStPrn/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - Agriculture IoT
+    - title: WP5 - Agriculture IoT use case
       link: "#"
     - title: WP6 
       link: "#"
@@ -212,9 +210,40 @@ review:
       partner: URV
       link: "#"
   artifacts:
-    - title: To be included
-      description: To be included
+    - title: Lithops Serve
+      description: An open source framework for big data analytics and embarrassingly parallel jobs, that provides an universal API for building parallel applications in the cloud.
+      link: "https://lithops-cloud.github.io/"
+    - title: Data-connector 
+      description: Open-source software data-connector as an
+agent framework for smart and autonomous management.
       link: "#"
+    - title: Generic Ephemeral Data Store (GEDS) 
+      description: GEDS implements the efficient caching and exchange of ephemeral data using the load/store semantics of an object store.
+      link: "#"
+    - title: ConfidentialQuark 
+      description: Equipping prominent fields such as
+Artificial Intelligence and serverless computing with a confidential approach would be essential for various use cases in the future.
+      link: "#"
+    - title: NearbyOne v2.0 
+      description: NearbyOne platform carries intra- and
+inter-domain orchestration capabilities and addresses the problem of xNF (CNF, VNF, etc.), as well as application orchestration in the cloud continuum.
+      link: "#"
+    - title: Agricultural Dataspace 
+      description: Data space for agriculture is capable of
+attracting data providers, to whom it offers mechanisms of reliability and use of information, capable of starting the generation around this platfotm.
+      link: "#"
+    - title: Surgical Navigation 
+      description: Surgical navigation, where segmentation, 3D mapping, and other extracted features are combined with pre-operative models to provide visual guideance.
+      link: "#"
+    - title: Pravega (SDP) 
+      description: Pravega is a tiered storage system for data streams that is at the core of Dell Streaming Data Platform (SDP) product.
+      link: "#"
+    - title: C-Cells 
+      description: We have developed scheduling and orchestration policies and live migration of C-Cells in Faabric.
+      link: "https://github.com/faasm/faabric"
+    - title: Glider 
+      description: Glider ephemeral storage system with in-storage computation.
+      link: "https://github.com/neardata-eu/glider-store"
   
   
 news:
