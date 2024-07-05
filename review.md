@@ -19,7 +19,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 
 
 <div class="col-lg-12 text-center mt-4 mb-4">
-	<table class="table table-striped" style="text-align: left">
+	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
 			<tr>
 				<th>Time</th>
@@ -44,7 +44,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 
 #### Review Slides
 <div class="col-lg-12 text-center mt-4 mb-4">
-	<table class="table table-striped" style="text-align: left">
+	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
 			<tr>
 				<th>Document</th>
@@ -66,7 +66,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 
 #### Videos and presentations
 <div class="col-lg-12 text-center mt-4 mb-4">
-	<table class="table table-striped" style="text-align: left">
+	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
 			<tr>
 				<th>Title</th>
@@ -89,7 +89,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 
 #### Deliverables
 <div class="col-lg-12 text-center mt-4 mb-4">
-	<table class="table table-striped" style="text-align: left">
+	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
 			<tr>
 				<th>Title</th>
@@ -110,7 +110,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 <!--
 #### Summary reports
  <div class="col-lg-12 text-center mt-4 mb-4">
-	<table class="table table-striped" style="text-align: left">
+	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
 			<tr>
 				<th>Partner short name</th>
@@ -132,7 +132,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 
 #### Software results
 <div class="col-lg-12 text-center mt-4 mb-4">
-	<table class="table table-striped" style="text-align: left">
+	<table class="table table-striped" style="text-align: left;">
 		<thead>
 			<tr>
 				<th>Title</th>

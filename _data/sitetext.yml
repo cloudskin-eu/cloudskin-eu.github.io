@@ -132,9 +132,22 @@ review:
       duration: 15 mins
       lead: Coordinator
     - time: "9:30"
-      subject: WP2 - Architecture and use cases - Metabolomics use case (5 mins), CAS use case (5 mins) and WP2 Architecture (20 mins). Q&A
-      duration: 40 mins
-      lead: EMBL, NCT, coordinator
+      subject: |-
+        WP2: Architecture and use cases 
+          - Metabolomics use case
+          - CAS use case
+          - WP2 Architecture
+        Q&A
+      duration: |-
+        40 mins
+        (5 mins)
+        (5 mins)
+        (20 mins)
+      lead: |-
+        
+        EMBL
+        NCT
+        Coordinator
     - time: "10:10"
       subject: Coffee break
       duration: 20 mins
@@ -170,28 +183,24 @@ review:
     
 
   slides: 
+    - title: Project Overview
+      link: "https://drive.google.com/file/d/1hLMul7I3TyOlPD-yLPVDS5tqtQJxphXd/view?usp=sharing"
     - title: WP1
       link: "https://docs.google.com/presentation/d/1u31rqy_2H6IJI2AtJBFouQg7TtFizoTH/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP2
-      link: "https://docs.google.com/presentation/d/1kcERbSR0tq4InuXFAMdWAyLbmpBIj4KX/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+      link: "https://drive.google.com/file/d/1gy5gCas_cPMnk6OVGK5zTp7cZu9I6UYa/view?usp=sharing"
     - title: WP3
       link: "https://docs.google.com/presentation/d/1k3q_eT4h22O1uSANjVOq1Sr9W98h0Mng/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP4
       link: "https://docs.google.com/presentation/d/10qUJObjNjYgQECPhwshMKxqXtCdlVAW1/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: x WP5 - Edge orchestration and video analytics use case
-      link: "#"
-    - title: WP5 - Metabolomics use case
-      link: "https://docs.google.com/presentation/d/1FajtgyibYby6qaLK6rtadYZos61Q5kEd/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - Surgery (CAS) use case
-      link: "https://docs.google.com/presentation/d/1tTmHGqdHu0dA_ZJ9eTc7w3ugoJhStPrn/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: x WP5 - Agriculture IoT use case
+    - title: WP5 - BSC
       link: "#"
     - title: WP6 - Promoting impact
       link: "https://docs.google.com/presentation/d/1T5LQ69ncVJgHMysiZ6FNyuizohHpJr9U/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
 
   videos:
-    - title: WP4 - Dell-IBM Pravega GEDS integration
-      video: "https://drive.google.com/file/d/1dEwQmi5DBq5UInC2fFV7C88iOpEPzw6i/view?usp=drive_link"
+    - title: WP3 - Dell-IBM Pravega GEDS integration
+      # video: "https://drive.google.com/file/d/1dEwQmi5DBq5UInC2fFV7C88iOpEPzw6i/view?usp=drive_link"
       slides: "#"
     - title: WP5 - Promotional video of the Agriculture use case
       video: "https://www.youtube.com/watch?v=HJxf5fhtlAs"
@@ -220,7 +229,7 @@ review:
       link: "#"
     - title: Generic Ephemeral Data Store (GEDS) 
       description: GEDS implements the efficient caching and exchange of ephemeral data using the load/store semantics of an object store.
-      link: "#"
+      link: "https://github.com/IBM/GEDS"
     - title: ConfidentialQuark 
       description: Equipping prominent fields such as Artificial Intelligence and serverless computing with a confidential approach would be essential for various use cases in the future.
       link: "#"
@@ -235,7 +244,7 @@ review:
       link: "#"
     - title: Pravega (SDP) 
       description: Pravega is a tiered storage system for data streams that is at the core of Dell Streaming Data Platform (SDP) product.
-      link: "#"
+      link: "https://github.com/pravega/pravega"
     - title: C-Cells 
       description: We have developed scheduling and orchestration policies and live migration of C-Cells in Faabric.
       link: "https://github.com/faasm/faabric"
