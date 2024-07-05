@@ -133,7 +133,7 @@ review:
       lead: Coordinator
     - time: "9:30"
       subject: |-
-        WP2: Architecture and use cases 
+        WP2 - Architecture and use cases 
           - Metabolomics use case
           - CAS use case
           - WP2 Architecture
@@ -153,27 +153,33 @@ review:
       duration: 20 mins
       lead: 
     - time: "10:30"
-      subject: WP3 - Infrastructure Support for the Cloud-edge continuum (20 mins). Q&A
+      subject: WP3 - Infrastructure Support for the Cloud-edge continuum (20 mins)
+        Q&A
       duration: 30 mins
       lead: IBM
     - time: "11:00"
-      subject: WP4 – Virtual Execution for the Cloud-edge Continuum (20 mins). Q&A
+      subject: WP4 – Virtual Execution for the Cloud-edge Continuum (20 mins)
+        Q&A
       duration: 30 mins
       lead: IMP
     - time: "11:30"
-      subject: WP5 – Smart Cloud-edge Continuum* (30 mins). Q&A
+      subject: WP5 – Smart Cloud-edge Continuum* (30 mins)
+        Q&A
       duration: 40 mins
       lead: BSC
     - time: "12:10"
-      subject: WP6 – Communication and Impact (10 mins). Q&A
+      subject: WP6 – Communication and Impact (10 mins)
+        Q&A
       duration: 15 mins
       lead: NRB
     - time: "12:25"
-      subject: WP1 – Project Management (10 mins). Resource accountability
+      subject: WP1 – Project Management (10 mins)
+        Resource accountability
       duration: 10 mins
       lead: Coordinator
     - time: "12:35"
-      subject: Private meeting - Reviewers and PO. Oral feedback from reviewers and comment from project
+      subject: Private meeting - Reviewers and PO. 
+        Oral feedback from reviewers and comment from project
       duration: 20 mins
       lead: PO
     - time: "12:55"
@@ -199,8 +205,14 @@ review:
       link: "https://docs.google.com/presentation/d/1T5LQ69ncVJgHMysiZ6FNyuizohHpJr9U/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
 
   videos:
+    - title: WP2 - Use Case Introduction - Computer Assisted Surgery
+      video: "https://drive.google.com/file/d/11a7jPGfBwEqqIweKgs5NR9JAeRuvIF3c/view?usp=drive_link"
+      slides: "https://docs.google.com/presentation/d/1kcERbSR0tq4InuXFAMdWAyLbmpBIj4KX/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP3 - Dell-IBM Pravega GEDS integration
-      # video: "https://drive.google.com/file/d/1dEwQmi5DBq5UInC2fFV7C88iOpEPzw6i/view?usp=drive_link"
+      video: "https://drive.google.com/file/d/1dEwQmi5DBq5UInC2fFV7C88iOpEPzw6i/view?usp=drive_link"
+      slides: "#"
+    - title: WP4 - Migration Micro Benchmark
+      video: "https://drive.google.com/file/d/1JdXPF9d1JLGnxR_rb7tNft0c0Z1JY2u1/view?usp=drive_link"
       slides: "#"
     - title: WP5 - Promotional video of the Agriculture use case
       video: "https://www.youtube.com/watch?v=HJxf5fhtlAs"
@@ -210,10 +222,13 @@ review:
       slides: "#"
     - title: WP5 - Metabolomics demo
       video: "https://drive.google.com/file/d/1c6EidXX_lMRh_92F8acI50PDAdvuKlYq/view?usp=sharing"
-      slides: "#"
+      slides: "https://docs.google.com/presentation/d/1FajtgyibYby6qaLK6rtadYZos61Q5kEd/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP5 - NCT-DELL Pravega Cluster
       video: "https://drive.google.com/file/d/1WB9aCk7-E6nJ94W0yZuxQfhG3M90TFLO/view?usp=drive_link"
       slides: "#"
+    - title: WP5 - Computer-Assisted Surgery (CAS) Use Case
+      video: "#"
+      slides: "https://docs.google.com/presentation/d/1tTmHGqdHu0dA_ZJ9eTc7w3ugoJhStPrn/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
   
   summaries:
     - shortname: To be included
@@ -223,10 +238,10 @@ review:
   artifacts:
     - title: Lithops Serve
       description: An open source framework for big data analytics and embarrassingly parallel jobs, that provides an universal API for building parallel applications in the cloud.
-      link: "https://lithops-cloud.github.io/"
+      link: "https://github.com/ZikBurns/lithopserve"
     - title: Data-connector 
       description: Open-source software data-connector as an agent framework for smart and autonomous management.
-      link: "#"
+      link: "https://github.com/bsc-scanflow/scanflow"
     - title: Generic Ephemeral Data Store (GEDS) 
       description: GEDS implements the efficient caching and exchange of ephemeral data using the load/store semantics of an object store.
       link: "https://github.com/IBM/GEDS"
@@ -244,7 +259,7 @@ review:
       link: "#"
     - title: Pravega (SDP) 
       description: Pravega is a tiered storage system for data streams that is at the core of Dell Streaming Data Platform (SDP) product.
-      link: "https://github.com/pravega/pravega"
+      link: "https://github.com/StreamingDataPlatforma"
     - title: C-Cells 
       description: We have developed scheduling and orchestration policies and live migration of C-Cells in Faabric.
       link: "https://github.com/faasm/faabric"
