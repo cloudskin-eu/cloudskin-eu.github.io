@@ -153,27 +153,27 @@ review:
       duration: 20 mins
       lead: 
     - time: "10:30"
-      subject: WP3 - Infrastructure Support for the Cloud-edge continuum (20 mins)
+      subject: WP3 - Infrastructure Support for the Cloud-edge continuum (20 mins).
         Q&A
       duration: 30 mins
       lead: IBM
     - time: "11:00"
-      subject: WP4 – Virtual Execution for the Cloud-edge Continuum (20 mins)
+      subject: WP4 – Virtual Execution for the Cloud-edge Continuum (20 mins).
         Q&A
       duration: 30 mins
       lead: IMP
     - time: "11:30"
-      subject: WP5 – Smart Cloud-edge Continuum* (30 mins)
+      subject: WP5 – Smart Cloud-edge Continuum* (30 mins).
         Q&A
       duration: 40 mins
       lead: BSC
     - time: "12:10"
-      subject: WP6 – Communication and Impact (10 mins)
+      subject: WP6 – Communication and Impact (10 mins).
         Q&A
       duration: 15 mins
       lead: NRB
     - time: "12:25"
-      subject: WP1 – Project Management (10 mins)
+      subject: WP1 – Project Management (10 mins).
         Resource accountability
       duration: 10 mins
       lead: Coordinator
@@ -199,8 +199,8 @@ review:
       link: "https://docs.google.com/presentation/d/1k3q_eT4h22O1uSANjVOq1Sr9W98h0Mng/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
     - title: WP4
       link: "https://docs.google.com/presentation/d/10qUJObjNjYgQECPhwshMKxqXtCdlVAW1/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - BSC
-      link: "#"
+    - title: WP5
+      link: "https://drive.google.com/file/d/14Mb4ftKRNYuwdcsHfK26Z59W6jm2KZPk/view?usp=sharing"
     - title: WP6 - Promoting impact
       link: "https://docs.google.com/presentation/d/1T5LQ69ncVJgHMysiZ6FNyuizohHpJr9U/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
 
@@ -250,7 +250,7 @@ review:
       link: "#"
     - title: NearbyOne v2.0 
       description: NearbyOne platform carries intra- and inter-domain orchestration capabilities and addresses the problem of xNF (CNF, VNF, etc.), as well as application orchestration in the cloud continuum.
-      link: "#"
+      link: " https://github.com/cloudskin-eu/Mobility-use-case/tree/main/NearbyBlocks"
     - title: Agricultural Dataspace 
       description: Data space for agriculture is capable of attracting data providers, to whom it offers mechanisms of reliability and use of information, capable of starting the generation around this platfotm.
       link: "https://cloudskin.alternatecno.es/dataspace.html"
