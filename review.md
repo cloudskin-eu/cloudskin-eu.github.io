@@ -79,7 +79,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 			<tr>
 				<td>{{ video.title }}</td>
 				<td><a href="{{ video.video }}"><i class="fas fa-external-link-alt"></i></a></td>
-				<td><a href="{{ video.slides }}"><i class="fas fa-external-link-alt"></i></a></td>
+				<td> {% if video.slides != "#" %} <a href="{{ video.slides }}"><i class="fas fa-external-link-alt"></i></a> {% endif %}</td>
 			</tr>
 			{% endfor %}
 		</tbody>
