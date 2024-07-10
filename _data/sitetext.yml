@@ -121,7 +121,9 @@ results:
   publications:
     - title: On Data Processing through the Lenses of S3 Object Lambda
       link: "https://zenodo.org/records/8314342"
-    - title: The Nanoservices Framework: Co-locating Microservices in the Cloud-Edge Continuum
+    - title: Spatial metabolomics - from a niche field towards a driver of innovation
+      link: "https://www.nature.com/articles/s42255-023-00881-0"
+    - title: The Nanoservices Framework - Co-locating Microservices in the Cloud-Edge Continuum
       link: "https://zenodo.org/records/11440573"
     - title: Is Performance of Object Storage Predictable for Serverless I/O Workloads? A Comparative Study
       link: "https://zenodo.org/records/11382387"
@@ -129,23 +131,23 @@ results:
       link: "https://www.teadal.eu/event/ucc-2023/"
     - title: Practical Storage-Compute Elasticity for Stream Data Processing
       link: "https://zenodo.org/records/11440818"
-    - title: SinClave: Hardware-assisted Singletons for TEEs
+    - title: SinClave - Hardware-assisted Singletons for TEEs
       link: "https://dl.acm.org/doi/abs/10.1145/3590140.3629107"
-    - title: Glider: Serverless Ephemeral Stateful Near-Data Computation
+    - title: Glider - Serverless Ephemeral Stateful Near-Data Computation
       link: "https://zenodo.org/records/10026859"
-    - title: Pravega: A Tiered Storage System for Data Streams
+    - title: Pravega - A Tiered Storage System for Data Streams
       link: "https://zenodo.org/records/11440703"
     - title: Scaling a Variant Calling Genomics Pipeline with FaaS
       link: "https://doi.org/10.48550/arXiv.2312.07090"
-    - title: Triad: Trusted Timestamps in Untrusted Environments
+    - title: Triad - Trusted Timestamps in Untrusted Environments
       link: "https://arxiv.org/abs/2311.06156"
-    - title: MLLess: Achieving cost efficiency in serverless machine learning training
+    - title: MLLess - Achieving cost efficiency in serverless machine learning training
       link: "https://arxiv.org/pdf/2206.05786"
-    - title: CloudSkin: ML-based Smart Management for the Cloud-Edge Continuum
+    - title: CloudSkin - ML-based Smart Management for the Cloud-Edge Continuum
       link: "https://hal.science/hal-04568788/"
     - title: Optimizing serverless architectures for data-intensive analytics workloads
       link: "https://upcommons.upc.edu/handle/2117/409989"
-    - title: Practicable live container migrations in high performance computing clouds: Diskless, iterative, and connection-persistent
+    - title: Practicable live container migrations in high performance computing clouds - Diskless, iterative, and connection-persistent
       link: "https://zenodo.org/records/11637685"
 
 review:
