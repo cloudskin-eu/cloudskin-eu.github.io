@@ -1,3 +1,12 @@
+---
+layout: page
+background: grey
+---
+
+<div class="col-lg-12 text-center mb-4">
+	<h2 class="section-heading text-uppercase">List of news</h2>
+</div>
+
 <!-- Portfolio Grid -->
 <section class="page-section bg-light" id="portfolio">
   <div class="container">
@@ -8,9 +17,10 @@
     </div>
     <hr class="light pb-5">
     <div class="row">
-      {% for project in site.news %}
+      {% for project in site.news reversed %}
+      {% assign length = forloop.length %}
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+        <a class="portfolio-link" data-toggle="modal" href="#p{{ length | minus: forloop.index0 }}">
           <div class="portfolio-hover">
             <div class="portfolio-hover-content">
               <i class="{{ site.data.style.portfolio-icon | default: " fas fa-plus fa-3x" }}"></i>
@@ -26,21 +36,31 @@
       {% endfor %}
     </div>
   </div>
-  <hr class="light pb-5">
-  <div class="row">
-      <div class="col-lg-6">
-          <div class="col-lg-12 text-center mt-4">
-            <a href="/news" class="btn btn-primary btn-xl js-scroll-trigger"><b>More news</b></a>
-          </div>
-      </div>
-      <div class="col-lg-6">
-          <div class="col-lg-12 text-center mt-4">
-            <a href="https://forms.office.com/e/gdM8Pj7Jy6" class="btn btn-primary btn-xl js-scroll-trigger"><b>Subscribe to Newsletter</b></a>
-          </div>
-      </div>
-      
-  </div> 
-
+<!--
+  <div class="col-lg-12 text-center mb-4">
+	<h2 class="section-heading text-uppercase">List of press releases</h2>
+</div>
+-->
+<!--
+<div class="col-lg-12 text-center">
+	<table class="table table-striped" style="text-align: left">
+		<thead>
+			<tr>
+				<th>Title</th>
+				<th>Link</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for press in site.data.sitetext.press %}
+			<tr>
+				<td>{{ press.title }}</td>
+				<td><a href="{{ press.url }}"><i class="fas fa-external-link-alt"></i></a></td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+-->
 </section>
 
 {% include modals.html %}
