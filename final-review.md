@@ -111,22 +111,22 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 		<thead>
 			<tr>
 				<th>Title</th>
-				<th>Journal / Conference</th>
+				<th>Venue</th>
 				<th>Link</th>
 			</tr>
 		</thead>
 		<tbody>
-			{% for publication in site.data.sitetext.publications %}
+			{% for publication in site.data.sitetext.results.publications %}
 			<tr>
 				<td>{{ publication.title }}</td>
 				<td>{{ publication.journal-conf }}</td>
 				<td>
-					{% if publication.url contains "http" %}
-						<a href="{{ publication.url }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-					{% else %}
-						<span class="text-muted" style="font-size: 0.9em;">Pending</span>
-					{% endif %}
-				</td>
+                    {% if publication.url contains "http" %}
+                        <a href="{{ publication.url }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    {% else %}
+                        <span class="text-muted" style="font-size: 0.8em;">{{ publication.url }}</span>
+                    {% endif %}
+                </td>
 			</tr>
 			{% endfor %}
 		</tbody>
