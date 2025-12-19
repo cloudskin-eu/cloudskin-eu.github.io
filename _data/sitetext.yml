@@ -461,7 +461,7 @@ results:
       type: "Publication in conference proceeding/workshop"
       year: "2025" 
       authors: "Germán T. Eizaguirre, Pedro García-López, Carlos Molina, Enrique Molina, and Gerard Finol"
-      doi: "https://doi.org/10.5281/zenodo.17701734"
+      doi: "10.5281/zenodo.17701734"
     - title: "Scalable energy-aware VM allocation on cloud data centers through mathematical programming models"
       url: "https://www.sciencedirect.com/science/article/pii/S0167739X25003061#d1e8721"
       journal-conf: "Future Generation Computer Systems"
