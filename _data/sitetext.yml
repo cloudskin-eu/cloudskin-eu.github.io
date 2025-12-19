@@ -122,157 +122,374 @@ results:
     - title: "On Data Processing through the Lenses of S3 Object Lambda"
       url: "https://zenodo.org/records/8314342"
       journal-conf: "IEEE International Conference on Computer Communications (IEEE INFOCOM)" 
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Pablo Gimeno Sarroca; Marc Sánchez-Artigas"
       doi: "10.1109/INFOCOM53939.2023.10228890"
     - title: "Spatial metabolomics - from a niche field towards a driver of innovation"
       url: "https://www.nature.com/articles/s42255-023-00881-0"
       journal-conf: "Nature Metabolism" 
-      type: ""
+      type: "Article in journal"
       year: "2023" 
       authors: "Theodore Alexandrov"
       doi: "10.1038/s42255-023-00881-0"
     - title: "The Nanoservices Framework - Co-locating Microservices in the Cloud-Edge Continuum"
       url: "https://zenodo.org/records/11440573"
-      journal-conf: "2023 IEEE 31st International Conference on Network Protocols (IEEE ICNP)" 
-      type: ""
+      journal-conf: "2023 IEEE 31st International Conference on Network Protocols (ICNP)" 
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Caron, Eric; Gracia-Tinedo, Raúl"
       doi: "10.1109/ICNP59255.2023.10355592"
     - title: "Is Performance of Object Storage Predictable for Serverless I/O Workloads? A Comparative Study"
       url: "https://zenodo.org/records/11382387"
       journal-conf: "Cloud-Edge Continuum Workshop 2023 (CEC23) (IEEE 31st International Conference on Network Protocols (ICNP))" 
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Eizaguirre, Germán T.; Sánchez-Artigas, Marc"
       doi: "10.1109/ICNP59255.2023.10355617"
     - title: "A Last-Level Defense for Application Integrity and Confidentiality"
       url: "https://arxiv.org/abs/2311.06154"
       journal-conf: "IEEE/ACM 16th International Conference on Utility and Cloud Computing (UCC ’23)" 
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Gabriel P. Fernandez, Andrey Brito, Ardhi Putra Pratama Hartono, Muhammad Usama Sardar, Christof Fetzer"
       doi: "10.48550/arXiv.2311.06154"
     - title: "Practical Storage-Compute Elasticity for Stream Data Processing"
       url: "https://zenodo.org/records/11440818"
-      journal-conf: "24th International Middleware Conference (Middleware '23): Industrial Track" 
-      type: ""
+      journal-conf: "24th International Middleware Conference: Industrial Track" 
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Gracia-Tinedo, Raúl; Junqueira, Flavio; Zhou, Brian; Xiong, Yimin; Liu, Luis"
       doi: "10.1145/3626562.3626828"
     - title: "SinClave - Hardware-assisted Singletons for TEEs"
       url: "https://arxiv.org/abs/2311.02697"
       journal-conf: "24th International Middleware Conference (Middleware '23)" 
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Gregor, Franz; Krahn, Robert; Quoc, Do Le; Fetzer, Christof"
       doi: "10.1145/3590140.3629107"
     - title: "Glider - Serverless Ephemeral Stateful Near-Data Computation"
       url: "https://zenodo.org/records/10026859"
       journal-conf: "24th International Middleware Conference (Middleware '23)" 
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Barcelona-Pons, Daniel; García-López, Pedro; Metzler, Bernard"
       doi: "10.1145/3590140.3629119"
     - title: "Pravega - A Tiered Storage System for Data Streams"
       url: "https://zenodo.org/records/11440703"
       journal-conf: "24th International Middleware Conference (Middleware '23)" 
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Gracia-Tinedo, Raúl; Junqueira, Flavio; Kaitchuck, Tom; Joshi, Sachin"
       doi: "10.1145/3590140.3629113"
     - title: "Scaling a Variant Calling Genomics Pipeline with FaaS"
       url: "https://arxiv.org/abs/2312.07090"
       journal-conf: "9th International Workshop on Serverless Computing (WoSC '23)" 
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Aitor Arjona, Arnau Gabriel-Atienza, Sara Lanuza-Orna, Xavier Roca-Canals, Ayman Bourramouss, Tyler K. Chafin, Lucio Marcello, Paolo Ribeca, Pedro García-López"
       doi: "10.1145/3631295.3631403"
     - title: "Triad - Trusted Timestamps in Untrusted Environments"
       url: "https://arxiv.org/abs/2311.06156"
       journal-conf: "2023 IEEE International Conference on Cloud Computing Technology and Science (CloudCom)" 
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2023" 
       authors: "Gabriel P. Fernandez, Andrey Brito, Christof Fetzer"
       doi: "10.48550/arXiv.2311.06156"
     - title: "MLLess - Achieving cost efficiency in serverless machine learning training"
-      url: "https://arxiv.org/pdf/2206.05786"
+      url: "https://www.sciencedirect.com/science/article/pii/S074373152300134X?via%3Dihub"
       journal-conf: "Journal of Parallel and Distributed Computing" 
-      type: ""
+      type: "Article in journal"
       year: "2024" 
       authors: "Pablo Gimeno Sarroca, Marc Sánchez-Artigas"
       doi: "10.1016/j.jpdc.2023.104764"
     - title: "CloudSkin - ML-based Smart Management for the Cloud-Edge Continuum"
       url: "https://hal.science/hal-04568788/"
-      journal-conf: "HAL Open Science" 
-      type: ""
+      journal-conf: "Workshop on Deep Learning for IoT (DL4IoT-2024)" 
+      type: "Publication in conference proceeding/workshop"
       year: "2024" 
       authors: "Peini Liu, Anna Ma Nestorov, Marc Palacín, Ramon Nou, Jordi Guitart, Josep Ll Berral "
       doi: ""
     - title: "Optimizing serverless architectures for data-intensive analytics workloads"
       url: "https://upcommons.upc.edu/handle/2117/409989"
       journal-conf: "UPC" 
-      type: ""
+      type: "Thesis"
       year: "2024" 
       authors: "Nestorov, Anna Maria"
       doi: "10.5821/dissertation-2117-409989"
     - title: "Practicable live container migrations in high performance computing clouds - Diskless, iterative, and connection-persistent"
       url: "https://zenodo.org/records/11637685" 
       journal-conf: "Journal of Systems Architecture" 
-      type: ""
+      type: "Article in journal"
       year: "2024" 
       authors: "Guitart, Jordi"
       doi: "10.1016/j.sysarc.2024.103157"
     - title: "CRISP: Confidentiality, Rollback, and Integrity Storage Protection for Confidential Stateful Computing"
       url: "https://arxiv.org/abs/2408.06822" 
       journal-conf: "2024 IEEE 17th International Conference on Cloud Computing (CLOUD)"  
-      type: ""
+      type: "Publication in conference proceeding/workshop"
       year: "2024" 
       authors: "Ardhi Putra Pratama Hartono, Andrey Brito, Christof Fetzer"
       doi: "10.48550/arXiv.2408.06822"
     - title: "METASPACE-ML: Metabolite annotation for imaging mass spectrometry using machine learning"
       url: "https://www.nature.com/articles/s41467-024-52213-9"
       journal-conf: "Nature Communications" 
-      type: ""
+      type: "Article in journal"
       year: "2024" 
-      authors: "Wadie B, Stuart L, Rath C.M., Drotleff B, Mamedov S, Alexandrov T"
+      authors: "Bishoy Wadie, Lachlan Stuart, Christopher M. Rath, Theodore Alexandrov"
       doi: "10.1038/s41467-024-52213-9"
-    - title: "Data-connector: An agent-based framework for autonomous ML-based smart management in cloud-edge continuum"
-      url: "https://upcommons.upc.edu/handle/2117/427180"
-      journal-conf: "Cloud-Edge Continuum Workshop 2024 (CEC24) (IEEE 32st International Conference on Network Protocols (ICNP))" 
-      type: ""
+    - title: "Serverful Functions: Leveraging Servers in Complex Serverless Workflows (industry track)"
+      url: "https://zenodo.org/records/15019182" 
+      journal-conf: "Middleware Industrial Track '24"
+      type: "Publication in conference proceeding/workshop"
       year: "2024" 
-      authors: "Peini Liu, Joan Oliveras Torra, Marc Palacin, Jordi Guitart, Josep Ll. Berral, Ramon Nou"
-      doi: "10.1109/ICNP61940.2024.10858515"
+      authors: "Germán T. Eizaguirre, Daniel Barcelona-Pons, Aitor Arjona, Gil Vernik, Pedro García-López, Theodore Alexandrov"
+      doi: "10.1145/3700824.3701095"
+    - title: "StreamSense: Policy-driven Semantic Video Search in Streaming Systems"
+      url: "https://zenodo.org/records/17348282"
+      journal-conf: "Middleware Industrial Track '24"
+      type: "Publication in conference proceeding/workshop"
+      year: "2024" 
+      authors: "Finol, Gerard; Gabriel, Arnau; Garcia-Lopez, Pedro; Gracia-Tinedo, Raul; Liu, Luis; Docea, Reuben; Kirchner, Max; Bodenstedt, Sebastian"
+      doi: "10.1145/3700824.3701097"
     - title: "Exploring Secure and Efficient Temporary Data Sharing between co-located Kubernetes Containers"
       url: "https://zenodo.org/records/15097005"
-      journal-conf: "Cloud-Edge Continuum Workshop 2024 (CEC24) (IEEE 32st International Conference on Network Protocols (ICNP))"
+      journal-conf: "CEC Workshop (IEEE ICNP'24)"
       type: "Publication in conference proceeding/workshop"
       year: "2024" 
       authors: "Aitor Arjona, Bernard Metzler, Pascal Spörri"
       doi: "10.5281/zenodo.15097004"
     - title: "Dexter: A Performance-Cost Efficient Resource Allocation Manager for Serverless Data Analytics"
       url: "https://upcommons.upc.edu/handle/2117/427195"
-      journal-conf: "25th International Middleware Conference (Middleware '24)" 
-      type: ""
+      journal-conf: "Middleware'24" 
+      type: "Publication in conference proceeding/workshop"
       year: "2024" 
       authors: "Anna Mª Nestorov, Diego Marron, Alberto Gutierrez-Torre, Chen Wang, Claudia Misale, Alaa Youssef, David Carrera,and Josep Lluís Berral"
       doi: "10.1145/3652892.3700753"
-    - title: "Serverful Functions: Leveraging Servers in Complex Serverless Workflows (industry track)"
-      url: "https://zenodo.org/records/15019182" 
-      journal-conf: "25th International Middleware Conference (Middleware '24): Industrial Track"
+    - title: "Data-connector: An agent-based framework for autonomous ML-based smart management in cloud-edge continuum"
+      url: "https://upcommons.upc.edu/handle/2117/427180"
+      journal-conf: "CEC24" 
       type: "Publication in conference proceeding/workshop"
       year: "2024" 
-      authors: "Germán T. Eizaguirre, Daniel Barcelona-Pons, Aitor Arjona, Gil Vernik, Pedro García-López, Theodore Alexandrov"
-      doi: "10.1145/3700824.3701095"
-    - title: "CRISP: Confidentiality, Rollback, and Integrity Storage Protection for Confidential Stateful Computing"
-      url: "https://arxiv.org/abs/2408.06822" 
-      journal-conf: "2024 IEEE 17th International Conference on Cloud Computing (CLOUD)"  
+      authors: "Peini Liu, Joan Oliveras Torra, Marc Palacin, Jordi Guitart, Josep Ll. Berral, Ramon Nou"
+      doi: "10.1109/ICNP61940.2024.10858515"
+    - title: "Back to the Byte: Towards Byte-oriented Semantics for Streaming Storage"
+      url: "https://zenodo.org/records/17348225"
+      journal-conf: "Middleware Industrial Track '24"
       type: "Publication in conference proceeding/workshop"
       year: "2024" 
-      authors: "Ardhi Putra Pratama Hartono, Andrey Brito, Christof Fetzer"
-      doi: "10.48550/arXiv.2408.06822"
+      authors: "Gracia-Tinedo, Raul; Junqueira, Flavio; Kaitchuck, Tom"
+      doi: "10.1145/3700824.3701099"
+    - title: "Towards Multi-tier Stream Data Tiering in the Cloud-Edge Continuum"
+      url: "https://zenodo.org/records/17347822"
+      journal-conf: "CEC Workshop (IEEE ICNP'24)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2024" 
+      authors: "O. Jundi, R. Gracia-Tinedo, S. Ahearne, P. Spörri, B. Metzler"
+      doi: ""
+    - title: "A Comprehensive Study on the Impact of Vulnerable Dependencies on Open-Source Software (ISSRE)"
+      url: "https://ieeexplore.ieee.org/abstract/document/10771210"
+      journal-conf: "2024 IEEE 35th International Symposium on Software Reliability Engineering (ISSRE)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2024" 
+      authors: "Shree Hari Bittugondanahalli Indra Kumar; Lília Rodrigues Sampaio; André Martin; Andrey Brito; Christof Fetzer"
+      doi: ""
+    - title: "A Comprehensive Study on the Impact of Vulnerable Dependencies on Open-Source Software (LADC)"
+      url: "(Pending Link)"
+      journal-conf: "LADC2024"
+      type: "Publication in conference proceeding/workshop"
+      year: "2024" 
+      authors: "Diego Gama, Andrey Brito, André Martin, Christof Fetzer"
+      doi: ""
+    - title: "Is It Time To Put Cold Starts In The Deep Freeze?"
+      url: "https://dl.acm.org/doi/10.1145/3698038.3698527"
+      journal-conf: "SoCC '24: Proceedings of the 2024 ACM Symposium on Cloud Computing"
+      type: "Publication in conference proceeding/workshop"
+      year: "2024" 
+      authors: "Carlos Segarra, Ivan Durev, and Peter Pietzuch"
+      doi: "10.1145/3698038.3698527"
+    - title: "Intelligent Optimization of Distributed Pipeline Execution in Serverless Platforms: A Predictive Model Approach"
+      url: "https://dl.acm.org/doi/10.1145/3702634.3702951"
+      journal-conf: "10th International Workshop on Serverless Computing"
+      type: "Publication in conference proceeding/workshop"
+      year: "2024" 
+      authors: "Usama Benabdelkrim Zakan, German Telmo Eizaguirre, Pedro Garcia Lopez"
+      doi: "10.1145/3702634.3702951"
+    - title: "GRANNY: Granular Management of Compute-Intensive Applications in the Cloud"
+      url: "https://www.doc.ic.ac.uk/~lvilanov/publications/files/nsdi25_granny.pdf"
+      journal-conf: "USENIX Symposium on Networked Systems Design and Implementation"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "C. Segarra (IMP), et al."
+      doi: ""
+    - title: "SeeSaw: Learning Soft Tissue Deformation from Laparoscopy Videos with GNNs"
+      url: "https://zenodo.org/records/12698507"
+      journal-conf: "IEEE Transactions on Biomedical Engineering"
+      type: "Article in journal"
+      year: "2024" 
+      authors: "Reuben Docea, Jinjing Xu, Wei Ling, Alexander C. Jenke, Fiona R. Kolbinger, Marius Distler, Stefanie Speidel, Micha Pfeiffer"
+      doi: "10.1109/TBME.2024.3424771"
+    - title: "Leveraging Expert Knowledge for Real-Time Online Adaptation of Intraoperative Liver Registration"
+      url: "https://link.springer.com/chapter/10.1007/978-3-031-75291-9_11"
+      journal-conf: "International Workshop on Shape in Medical Imaging, MICCAI"
+      type: "Publication in conference proceeding/workshop"
+      year: "2024" 
+      authors: "Peng Liu, Sebastian Bodenstedt, Fiona Kolbinger, Carina Riediger, Jürgen Weitz, Stefanie Speidel, Micha Pfeiffer"
+      doi: ""
+    - title: "Modeling and predicting quality of service for application migrations in the cloud-edge continuum"
+      url: "https://upcommons.upc.edu/entities/publication/c4723525-a308-4c52-be8c-b9e7f1ad96f2"
+      journal-conf: "Thesis UPC"
+      type: "Thesis"
+      year: "2024" 
+      authors: "Joan Oliveras Torra"
+      doi: ""
+    - title: "Forecasting Trends in Cloud/Edge Computing: Unleashing the Power of Attention Mechanisms"
+      url: "https://ieeexplore.ieee.org/document/10726908"
+      journal-conf: "IEEE Communications Magazine"
+      type: "Article in journal"
+      year: "2025" 
+      authors: "Berend J. D. Gort; Godfrey M. Kibalya; Maria A. Serrano; Angelos Antonopoulos"
+      doi: ""
+    - title: "Sicherheitsmechanismen des Cloud-Computings zur Verwendung in Korrekturverfahren"
+      url: "https://fis.tu-dresden.de/portal/en/publications/sicherheitsmechanismen-des-cloudcomputings-zur-verwendung-in-korrekturverfahren(a3495a8a-4926-45a0-9398-6b90efcd9fcf).html"
+      journal-conf: "Thermo-energetische Gestaltung von Werkzeugmaschinen: Praxishandbuch"
+      type: "Book Chapter"
+      year: "2025" 
+      authors: "Robert Krahn, Christof Fetzer"
+      doi: ""
+    - title: "Mosaic: Optimizing Cloud Resource Efficiency with Lazily-Packaged Application Modules"
+      url: "https://dl.acm.org/doi/10.1145/3721465.3721864"
+      journal-conf: "Workshop on SErverless Systems, Applications and MEthodologies (SESAME’25)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Serhii Ivanenko, Carlos Segarra, Rodrigo Bruno"
+      doi: ""
+    - title: "Let It Unthread: The Good, The Bad and The Ugly within WebAssembly Portable Multithreading"
+      url: "https://ieeexplore.ieee.org/abstract/document/11044807"
+      journal-conf: "International Symposium on Cluster, Cloud and Internet Computing (CCGrid)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "M. Sánchez-Artigas, J. Bohoyo-Bengoetxea"
+      doi: ""
+    - title: "A Reliability Score for Video-Analytics Edge-IoT Devices in Urban Environments"
+      url: "https://upcommons.upc.edu/server/api/core/bitstreams/fb8d398f-ce21-4817-bd6a-3bb4b96d1283/content"
+      journal-conf: "Workshop on Urban Computing, IEEE DCOSS"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Marçal Garcia, Joan Oliveras, David Aguilera-Luzón, Peini Liu, Mario José Diván, Josep Lluís Berral"
+      doi: ""
+    - title: "Dynamic In-node Group-aware Scheduling for Multi-tenant Machine Learning Services on Kubernetes"
+      url: "https://futur.upc.edu/42756187"
+      journal-conf: "International Conference on Cloud Computing (CLOUD)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "P. Liu and Jordi Guitart"
+      doi: ""
+    - title: "Optimizing WebAssembly Garbage Collection in Go: Performance Insights, Tuning Tips, and Batch Execution Strategies"
+      url: "(Pending Link)"
+      journal-conf: "IEEE ICDCS’25"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Safia Guellil, M. Sanchez-Artigas"
+      doi: ""
+    - title: "Enhancing the output of time series forecasting algorithms for cloud resource provisioning"
+      url: "https://www.sciencedirect.com/science/article/pii/S0167739X25001281"
+      journal-conf: "Future Generation Computer Systems"
+      type: "Article in journal"
+      year: "2025" 
+      authors: "F. Agulló, A. Gutierrez-Torre, J. Torres, J. Ll. Berral"
+      doi: ""
+    - title: "Integrating Reliability into Intent-Driven Orchestration on Kubernetes-based Edge Nodes"
+      url: "https://hdl.handle.net/2117/449193"
+      journal-conf: "IEEE International Conference on Network Protocols - Cloud-Edge Continuum Workshop (ICNP-CEC)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "J. Berral, D. Aguilera-Luzon, P. Liu, R. Nou, M. Serrano, A. Antonopoulos, J. Santaella, M. Divan"
+      doi: ""
+    - title: "Mobility Usecase: Intelligent Service Migration in Cloud-Edge Continuum"
+      url: "https://hdl.handle.net/2117/449192"
+      journal-conf: "IEEE International Conference on Network Protocols - Cloud-Edge Continuum Workshop (ICNP-CEC)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "P. Liu, J. Oliveras Torra, M. Palacın, M. Dalgitsis, M. Serrano, E. Datsika, A. Antonopoulos, J. Santaella, J. Guitart, J. Berral, R. Nou"
+      doi: ""
+    - title: "Understanding the Latency-Security Tradeoff: TEE-based Confidential Computing for Streaming Workloads"
+      url: "https://zenodo.org/records/17348364"
+      journal-conf: "CEC Workshop (@IEEE ICNP’25)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Alan Cueva Mora, K.P.N. Jayasena, Robert Krahn, Enrique Chirivella-Perez, Christof Fetzer"
+      doi: ""
+    - title: "Coupling Orchestration and DNS for Seamless Service Migration in the Edge-Cloud Continuum"
+      url: "(Pending Link)"
+      journal-conf: "IEEE International Conference on Network Protocols - Cloud-Edge Continuum Workshop (ICNP-CEC)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "M. Dalgitsis, E. Datsika, M. Palacín, P. Liu, J. Sanchez, M. Serrano, A. Antonopoulos, J. Santaella, J. Guitart, J. Berral, R. Nou"
+      doi: ""
+    - title: "T^2GS: Comprehensive Reconstruction of Dynamic Surgical Scenes with Gaussian Splatting"
+      url: "(Pending Link)"
+      journal-conf: "Medical Image Computing and Computer Assisted Intervention - MICCAI 2025"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Jinjing Xu, Chenyang Li, Peng Liu, Micha Pfeiffer, Liwen Liu, Reuben Docea, Martin Wagner, and Stefanie Speidel"
+      doi: ""
+    - title: "FlowState: Sampling-Rate Invariant Time Series Foundation Model with Dynamic Forecasting Horizons"
+      url: "https://openreview.net/pdf?id=R50AT6nAsM"
+      journal-conf: "Conference on Neural Information Processing Systems (NeurIPS)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Lars Graf, Thomas Ortner, Stanislaw Wozniak, Angeliki Pantazi"
+      doi: ""
+    - title: "GreenWise: Intelligent Application Migration for Containerized Machine Learning Services in the Computing Continuum"
+      url: "https://biblio.ugent.be/publication/01KBZ7W2CQKY5MWT3NBV0K97CP"
+      journal-conf: "ACM 18th International Conference on Utility and Cloud Computing (UCC ’25)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Peini Liu, José Santos, Filip De Turck, and Jordi Guitart"
+      doi: ""
+    - title: "Manifesting the Elasticity of Serverless Data Pipelines: a Metabolomics Use Case"
+      url: "https://dl.acm.org/doi/10.1145/3774899.3775018"
+      journal-conf: "11th International Workshop on Serverless Computing (WoSC 2025)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Elena Díez-Cuadrado, Germán T. Eizaguirre, Enrique Molina-Giménez"
+      doi: "10.1145/3774899.3775018"
+    - title: "Quantifying Serverless Elasticity: The gumeter Benchmark Suite"
+      url: "https://zenodo.org/records/17701734"
+      journal-conf: "International Conference on Service-Oriented Computing (ICSOC)"
+      type: "Publication in conference proceeding/workshop"
+      year: "2025" 
+      authors: "Germán T. Eizaguirre, Pedro García-López, Carlos Molina, Enrique Molina, and Gerard Finol"
+      doi: ""
+    - title: "Scalable energy-aware VM allocation on cloud data centers through mathematical programming models"
+      url: "https://www.sciencedirect.com/science/article/pii/S0167739X25003061#d1e8721"
+      journal-conf: "Future Generation Computer Systems"
+      type: "Article in journal"
+      year: "2026" 
+      authors: "R. Meroni, Jordi Guitart"
+      doi: ""
+    - title: "DynEndoVO: Scene Dynamics-Aware Pose Estimation of Endoscope in Minimally Invasive Surgery"
+      url: "(Pending Link)"
+      journal-conf: "International Journal of Computer Assisted Radiology and Surgery (IJCARS)"
+      type: "Article in journal"
+      year: "2026" 
+      authors: "Jinjing Xu, Reuben Docea, Micha Pfeiffer, Martin Wagner, Marius Distler, Stefanie Speidel"
+      doi: ""
+    - title: "Intelligent Orchestration Mechanisms for Image Workload Placement"
+      url: "(Pending Link)"
+      journal-conf: "ELSEVIER Advances in Image Processing, Reliability, and Artificial Intelligence"
+      type: "Book Chapter"
+      year: "2026" 
+      authors: "Josep Ll Berral-García, Maria A Serrano, Peini Liu, Joan Oliveras Torra, Gusseppe Bravo-Rocca, Marc Palacín Marfil, David Buchaca, Ferran Agullo Lopez, Pol Garcia, Jordi Guitart, Ramon Nou, Berend Gort, Lazaros Liatsas, Godfrey Mirondo Kibalya, Angelos Antonopoulos, David Carrera, Francesc Guim"
+      doi: ""
+    - title: "Sustainable, Reliability-Score-aware Elastic Orchestration for Edge Devices"
+      url: "(Pending Link)"
+      journal-conf: "Springer book: Reliability Modelling, System Engineering, and Management through Computational Intelligence"
+      type: "Book Chapter"
+      year: "2026" 
+      authors: "David Aguilera-Luzon, Josep Lluis Berral Garcia, Joan Oliveras-Torra, Peini Liu and Mario Jose Divan"
+      doi: ""
 
 review:
   events:
@@ -422,7 +639,164 @@ review:
     - title: Glider 
       description: Glider ephemeral storage system with in-storage computation.
       link: "https://github.com/CLOUDLAB-URV/glider-store"
+
+final_review:
+  events:
+    - time: "9:00"
+      subject: "Welcome! Presentation of participants"
+      duration: 30 mins
+      lead: Coordinator
+    - time: "9:30"
+      subject: |-
+        Project presentation
+          - Big picture and goals
+          - Achievements, project outcomes and lessons
+      duration: 20 mins
+      lead: Coordinator
+    - time: "9:50"
+      subject: |-
+        WP2 – Architecture
+        Q&A
+      duration: 30 mins
+      lead: Coordinator
+    - time: "10:20"
+      subject: Coffee break
+      duration: 30 mins
+      lead:
+    - time: "10:50"
+      subject: |-
+        WP3 – Infrastructure Support for the Cloud-edge continuum
+        Q&A
+      duration: 35 mins
+      lead: IBM
+    - time: "11:25"
+      subject: |-
+        WP4 – Virtual Execution for the Cloud-edge Continuum
+        Q&A
+      duration: 35 mins
+      lead: IMP
+    - time: "12:00"
+      subject: Lunch
+      duration: 60 mins
+      lead:
+    - time: "13:00"
+      subject: |-
+        WP5 – Smart Cloud-edge Continuum
+          - Learning Plane (25 mins)
+          - Automotive use case (10 mins)
+          - Metabolomics use case (15 mins)
+          - Computer-assisted surgery use case (15 mins)
+          - Agriculture use case (10 mins)
+          - Q&A (15 mins)
+      duration: 90 mins
+      lead: BSC
+    - time: "14:30"
+      subject: |-
+        WP6 – Communication and Impact
+          - Promotional videos
+        Q&A
+      duration: 35 mins
+      lead: NBC
+    - time: "15:05"
+      subject: |-
+        WP1 – Project Management
+          - Resource accountability, financial information
+          - Amendments
+      duration: 25 mins
+      lead: Coordinator
+    - time: "15:30"
+      subject: Final remarks
+      duration: 10 mins
+      lead: PO
+    - time: "15:40"
+      subject: "Coffee break / Private meeting: reviewers and PO"
+      duration: 20 mins
+      lead: PO
+    - time: "16:00"
+      subject: Oral feedback from reviewers and comment from project
+      duration: 25 mins
+      lead: PO
+    - time: "16:25"
+      subject: End of review
+      duration:
+      lead:
+
+  slides: 
+    - title: Project Overview
+      link: "https://drive.google.com/file/d/1hLMul7I3TyOlPD-yLPVDS5tqtQJxphXd/view?usp=sharing"
+    - title: WP1
+      link: "https://docs.google.com/presentation/d/1u31rqy_2H6IJI2AtJBFouQg7TtFizoTH/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP2
+      link: "https://drive.google.com/file/d/1gy5gCas_cPMnk6OVGK5zTp7cZu9I6UYa/view?usp=sharing"
+    - title: WP3
+      link: "https://docs.google.com/presentation/d/1k3q_eT4h22O1uSANjVOq1Sr9W98h0Mng/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP4
+      link: "https://docs.google.com/presentation/d/10qUJObjNjYgQECPhwshMKxqXtCdlVAW1/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5
+      link: "https://drive.google.com/file/d/14Mb4ftKRNYuwdcsHfK26Z59W6jm2KZPk/view?usp=sharing"
+    - title: WP6 - Promoting impact
+      link: "https://docs.google.com/presentation/d/1T5LQ69ncVJgHMysiZ6FNyuizohHpJr9U/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+
+  videos:
+    - title: WP2 - Use Case Introduction - Computer Assisted Surgery
+      video: "https://drive.google.com/file/d/11a7jPGfBwEqqIweKgs5NR9JAeRuvIF3c/view?usp=drive_link"
+      slides: "https://docs.google.com/presentation/d/1kcERbSR0tq4InuXFAMdWAyLbmpBIj4KX/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP3 - Dell-IBM Pravega GEDS integration
+      video: "https://drive.google.com/file/d/1dEwQmi5DBq5UInC2fFV7C88iOpEPzw6i/view?usp=drive_link"
+      slides: "#"
+    - title: WP4 - Migration Micro Benchmark
+      video: "https://drive.google.com/file/d/1JdXPF9d1JLGnxR_rb7tNft0c0Z1JY2u1/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - Promotional video of the Agriculture use case
+      video: "https://www.youtube.com/watch?v=HJxf5fhtlAs"
+      slides: "#"
+    - title: WP5 - Demo application placement for the mobility use case
+      video: "https://drive.google.com/file/d/18lKZnt6KDfRa7ZuKX4ry1rOUN7_fZVjw/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - Use Case Introduction - Metabolomics
+      video: "https://drive.google.com/file/d/1tFgEDaJcRM7kcffcPk8fOQGKW531oMtH/view?usp=sharing"
+      slides: "https://docs.google.com/presentation/d/19mG_w4gLbQJ7hkunBOBg3CXcdmR0SlFz/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5 - Metabolomics demo
+      video: "https://drive.google.com/file/d/1c6EidXX_lMRh_92F8acI50PDAdvuKlYq/view?usp=sharing"
+      slides: "https://docs.google.com/presentation/d/1FajtgyibYby6qaLK6rtadYZos61Q5kEd/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5 - NCT-DELL Pravega Cluster
+      video: "https://drive.google.com/file/d/1WB9aCk7-E6nJ94W0yZuxQfhG3M90TFLO/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - Computer-Assisted Surgery (CAS) Use Case
+      video: "#"
+      slides: "https://docs.google.com/presentation/d/1tTmHGqdHu0dA_ZJ9eTc7w3ugoJhStPrn/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
   
+  artifacts:
+    - title: Lithops Serve
+      description: An open source framework for big data analytics and embarrassingly parallel jobs, that provides an universal API for building parallel applications in the cloud.
+      link: "https://github.com/ZikBurns/lithopserve"
+    - title: Data-connector 
+      description: Open-source software data-connector as an agent framework for smart and autonomous management.
+      link: "https://github.com/bsc-scanflow/scanflow"
+    - title: Generic Ephemeral Data Store (GEDS) 
+      description: GEDS implements the efficient caching and exchange of ephemeral data using the load/store semantics of an object store.
+      link: "https://github.com/IBM/GEDS"
+    - title: ConfidentialQuark 
+      description: Equipping prominent fields such as Artificial Intelligence and serverless computing with a confidential approach would be essential for various use cases in the future.
+      link: "https://github.com/QuarkContainer/Quark/tree/cc_quark_amd_sev_snp"
+    - title: NearbyOne v2.0 
+      description: NearbyOne platform carries intra- and inter-domain orchestration capabilities and addresses the problem of xNF (CNF, VNF, etc.), as well as application orchestration in the cloud continuum.
+      link: " https://github.com/cloudskin-eu/Mobility-use-case/tree/main/NearbyBlocks"
+    - title: Agricultural Dataspace 
+      description: Data space for agriculture is capable of attracting data providers, to whom it offers mechanisms of reliability and use of information, capable of starting the generation around this platfotm.
+      link: "https://cloudskin.alternatecno.es/dataspace.html"
+    - title: Surgical Navigation 
+      description: Surgical navigation, where segmentation, 3D mapping, and other extracted features are combined with pre-operative models to provide visual guideance.
+      link: "#"
+    - title: Pravega
+      description: Pravega is a tiered storage system for data streams that is at the core of Dell Streaming Data Platform (SDP) product.
+      link: "https://github.com/pravega/pravega"
+    - title: C-Cells 
+      description: We have developed scheduling and orchestration policies and live migration of C-Cells in Faabric.
+      link: "https://github.com/faasm/faabric"
+    - title: Glider 
+      description: Glider ephemeral storage system with in-storage computation.
+      link: "https://github.com/CLOUDLAB-URV/glider-store"
   
 news:
   title: News
