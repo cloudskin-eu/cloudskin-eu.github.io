@@ -42,7 +42,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 	</table>
 </div>
 
-#### Review Slides
+#### Presentations
 <div class="col-lg-12 text-center mt-4 mb-4">
 	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
@@ -62,7 +62,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 	</table>
 </div>
 
-#### Videos and presentations
+#### Videos
 <div class="col-lg-12 text-center mt-4 mb-4">
 	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
