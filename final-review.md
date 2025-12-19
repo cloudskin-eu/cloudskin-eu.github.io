@@ -42,7 +42,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 	</table>
 </div>
 
-#### Presentations
+#### Review Slides
 <div class="col-lg-12 text-center mt-4 mb-4">
 	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
@@ -62,7 +62,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 	</table>
 </div>
 
-#### Videos
+#### Videos and presentations
 <div class="col-lg-12 text-center mt-4 mb-4">
 	<table class="table table-striped" style="text-align: left; white-space: pre;">
 		<thead>
@@ -99,6 +99,34 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 			<tr>
 				<td>{{ deliverable.title }}  {{ deliverable.subtitle }}</td>
 				<td><a href="{{ deliverable.file }}"><i class="fas fa-external-link-alt"></i></a></td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+
+#### Publications
+<div class="col-lg-12 text-center mt-4 mb-4">
+	<table class="table table-striped" style="text-align: left">
+		<thead>
+			<tr>
+				<th>Title</th>
+				<th>Journal / Conference</th>
+				<th>Link</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for publication in site.data.sitetext.publications %}
+			<tr>
+				<td>{{ publication.title }}</td>
+				<td>{{ publication.journal-conf }}</td>
+				<td>
+					{% if publication.url contains "http" %}
+						<a href="{{ publication.url }}" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+					{% else %}
+						<span class="text-muted" style="font-size: 0.9em;">Pending</span>
+					{% endif %}
+				</td>
 			</tr>
 			{% endfor %}
 		</tbody>
