@@ -113,6 +113,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 				<th>Title</th>
 				<th>Venue</th>
 				<th>Link</th>
+				<th>DOI</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -127,6 +128,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
                         <span class="text-muted" style="font-size: 0.8em;">{{ publication.url }}</span>
                     {% endif %}
                 </td>
+				<td> {% if publication.doi != "" %} <a href="https://doi.org/{{ publication.doi }}">{{ publication.doi }}</a> {% endif %} </td>
 			</tr>
 			{% endfor %}
 		</tbody>
