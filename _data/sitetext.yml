@@ -91,10 +91,10 @@ results:
       subtitle: Data Management Plan, 2nd version
       file: ../assets/deliverables/CloudSkin_D2.4_Public.pdf
     - title: D2.5
-      subtitle: Reference implementation of architectural building blocks
+      subtitle: Reference implementation of architectural building blocks*
       file: ../assets/deliverables/CloudSkin_D2.5_Public.pdf
     - title: D2.6
-      subtitle: Data Management Plan, 3rd version
+      subtitle: Data Management Plan, 3rd version*
       file: ../assets/deliverables/CloudSkin_D2.6_Public.pdf
     - title: D3.1
       subtitle: Early release of Ephemeral Data Store
@@ -106,7 +106,7 @@ results:
       subtitle: Active Ephemeral Data Store Release Candidate and Specification
       file: ../assets/deliverables/CloudSkin_D3.3_Public.pdf
     - title: D3.4
-      subtitle: Reference implementation of Cloud native Infrastructure
+      subtitle: Reference implementation of Cloud native Infrastructure*
       file: ../assets/deliverables/CloudSkin_D3.4_Public.pdf
     - title: D4.1
       subtitle: Initial prototype for Cloud-edge cells
@@ -115,7 +115,7 @@ results:
       subtitle: Cloud-edge cells Release Candidate and Specifications
       file: ../assets/deliverables/CloudSkin_D4.2_Public.pdf
     - title: D4.3
-      subtitle: Reference implementation of Cloud-edge platform
+      subtitle: Reference implementation of Cloud-edge platform*
       file: ../assets/deliverables/CloudSkin_D4.3_Public.pdf
     - title: D5.1
       subtitle: Design and early prototype of CLOUDSKIN Learning Plane
@@ -124,10 +124,10 @@ results:
       subtitle: Learning methods for Infrastructure and Workload management
       file: ../assets/deliverables/CloudSkin_D5.2_Public.pdf
     - title: D5.3
-      subtitle: Integration of the Learning Plane
+      subtitle: Integration of the Learning Plane*
       file: ../assets/deliverables/CloudSkin_D5.3_Public.pdf
     - title: D5.4
-      subtitle: Proof of Concept in different Data Domains
+      subtitle: Proof of Concept in different Data Domains*
       file: ../assets/deliverables/CloudSkin_D5.4_Public.pdf
     - title: D6.1
       subtitle: Communication Plan
