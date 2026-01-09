@@ -90,6 +90,12 @@ results:
     - title: D2.4
       subtitle: Data Management Plan, 2nd version
       file: ../assets/deliverables/CloudSkin_D2.4_Public.pdf
+    - title: D2.5
+      subtitle: Reference implementation of architectural building blocks
+      file: ../assets/deliverables/CloudSkin_D2.5_Public.pdf
+    - title: D2.6
+      subtitle: Data Management Plan, 3rd version
+      file: ../assets/deliverables/CloudSkin_D2.6_Public.pdf
     - title: D3.1
       subtitle: Early release of Ephemeral Data Store
       file: ../assets/deliverables/CloudSkin_D3.1_Public.pdf
@@ -99,18 +105,30 @@ results:
     - title: D3.3
       subtitle: Active Ephemeral Data Store Release Candidate and Specification
       file: ../assets/deliverables/CloudSkin_D3.3_Public.pdf
+    - title: D3.4
+      subtitle: Reference implementation of Cloud native Infrastructure
+      file: ../assets/deliverables/CloudSkin_D3.4_Public.pdf
     - title: D4.1
       subtitle: Initial prototype for Cloud-edge cells
       file: ../assets/deliverables/CloudSkin_D4.1_Public.pdf
     - title: D4.2
       subtitle: Cloud-edge cells Release Candidate and Specifications
       file: ../assets/deliverables/CloudSkin_D4.2_Public.pdf
+    - title: D4.3
+      subtitle: Reference implementation of Cloud-edge platform
+      file: ../assets/deliverables/CloudSkin_D4.3_Public.pdf
     - title: D5.1
       subtitle: Design and early prototype of CLOUDSKIN Learning Plane
       file: ../assets/deliverables/CloudSkin_D5.1_Public.pdf
     - title: D5.2
       subtitle: Learning methods for Infrastructure and Workload management
       file: ../assets/deliverables/CloudSkin_D5.2_Public.pdf
+    - title: D5.3
+      subtitle: Integration of the Learning Plane
+      file: ../assets/deliverables/CloudSkin_D5.3_Public.pdf
+    - title: D5.4
+      subtitle: Proof of Concept in different Data Domains
+      file: ../assets/deliverables/CloudSkin_D5.4_Public.pdf
     - title: D6.1
       subtitle: Communication Plan
       file: ../assets/deliverables/CloudSkin_D6.1_Public.pdf
@@ -365,7 +383,7 @@ results:
       authors: "Serhii Ivanenko, Carlos Segarra, Rodrigo Bruno"
       doi: "10.1145/3721465.3721864"
     - title: "Let It Unthread: The Good, The Bad and The Ugly within WebAssembly Portable Multithreading"
-      url: "https://ieeexplore.ieee.org/abstract/document/11044807"
+      url: "https://zenodo.org/records/18037245"
       journal-conf: "International Symposium on Cluster, Cloud and Internet Computing (CCGrid)"
       type: "Publication in conference proceeding/workshop"
       year: "2025" 
@@ -386,7 +404,7 @@ results:
       authors: "P. Liu and Jordi Guitart"
       doi: "10.1109/CLOUD67622.2025.00017"
     - title: "Optimizing WebAssembly Garbage Collection in Go: Performance Insights, Tuning Tips, and Batch Execution Strategies (Pending link)"
-      url: ""
+      url: "https://zenodo.org/records/17987782"
       journal-conf: "IEEE ICDCS’25"
       type: "Publication in conference proceeding/workshop"
       year: "2025" 
@@ -421,19 +439,19 @@ results:
       authors: "Alan Cueva Mora, K.P.N. Jayasena, Robert Krahn, Enrique Chirivella-Perez, Christof Fetzer"
       doi: "10.1109/ICNP65844.2025.11192400"
     - title: "Coupling Orchestration and DNS for Seamless Service Migration in the Edge-Cloud Continuum (Pending link)"
-      url: ""
+      url: "https://www.computer.org/csdl/proceedings-article/icnp/2025/11192408/2aMnDXBNuIU"
       journal-conf: "IEEE International Conference on Network Protocols - Cloud-Edge Continuum Workshop (ICNP-CEC)"
       type: "Publication in conference proceeding/workshop"
       year: "2025" 
       authors: "M. Dalgitsis, E. Datsika, M. Palacín, P. Liu, J. Sanchez, M. Serrano, A. Antonopoulos, J. Santaella, J. Guitart, J. Berral, R. Nou"
-      doi: ""
+      doi: "10.1109/ICNP65844.2025.11192408"
     - title: "T^2GS: Comprehensive Reconstruction of Dynamic Surgical Scenes with Gaussian Splatting (Pending link)"
-      url: ""
+      url: "https://fis.tu-dresden.de/portal/en/publications/t2gs(81aeb73d-97fb-4010-a9a8-e5d4a739b78e).html"
       journal-conf: "Medical Image Computing and Computer Assisted Intervention - MICCAI 2025"
       type: "Publication in conference proceeding/workshop"
       year: "2025" 
       authors: "Jinjing Xu, Chenyang Li, Peng Liu, Micha Pfeiffer, Liwen Liu, Reuben Docea, Martin Wagner, and Stefanie Speidel"
-      doi: ""
+      doi: "10.1007/978-3-032-05114-1_57"
     - title: "FlowState: Sampling-Rate Invariant Time Series Foundation Model with Dynamic Forecasting Horizons"
       url: "https://openreview.net/pdf?id=R50AT6nAsM"
       journal-conf: "Conference on Neural Information Processing Systems (NeurIPS)"
@@ -470,12 +488,12 @@ results:
       authors: "R. Meroni, Jordi Guitart"
       doi: "10.1016/j.future.2025.108011"
     - title: "DynEndoVO: Scene Dynamics-Aware Pose Estimation of Endoscope in Minimally Invasive Surgery (Pending link)"
-      url: ""
+      url: "https://link.springer.com/content/pdf/10.1007/s11548-025-03549-0.pdf"
       journal-conf: "International Journal of Computer Assisted Radiology and Surgery (IJCARS)"
       type: "Article in journal"
       year: "2026" 
       authors: "Jinjing Xu, Reuben Docea, Micha Pfeiffer, Martin Wagner, Marius Distler, Stefanie Speidel"
-      doi: ""
+      doi: "10.1007/s11548-025-03549-0"
     - title: "Intelligent Orchestration Mechanisms for Image Workload Placement (Pending link)"
       url: ""
       journal-conf: "ELSEVIER Advances in Image Processing, Reliability, and Artificial Intelligence"
