@@ -16,6 +16,8 @@ nav:
     section: usecases
   - title: "Results"
     section: results
+  - title: "Impact"
+    url: "/impact/"
   - title: "News"
     section: portfolio
   - title: "Partners"
