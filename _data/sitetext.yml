@@ -9,43 +9,14 @@
 
 objectives:
   text1: |
-    **CloudSkin** aims to design a cognitive cloud continuum platform to fully
-    exploit the available Cloud-edge heterogeneous resources, finding the “sweet spot” between the cloud
-    and the edge, and smartly adapting to changes in application behavior via AI. To facilitate automatic deployment, mobility and
-    security of services, CloudSkin will build an innovative universal container-like execution abstraction based on
-    WebAssembly that allows the seamless and trustworthy execution of (legacy) applications across the
-    Cloud-edge continuum.
-  image: cloudskin-overview.png
+    **CloudSkin** aims to create a cognitive cloud-edge continuum platform that optimally exploits heterogeneous resources. Using AI, the platform will automatically adapt to application behavior and enable secure, seamless service deployment through a universal execution abstraction based on WebAssembly.
+  image:
   text2: |
-    The goals of CloudSkin are the following:
-      - **Smart management for the Cloud-edge continuum:** The overall objective is to leverage the generated knowledge from
-        state-of-art AI methods to transparently orchestrate Cloud-edge resources. The key goal is
-        to build a “Learning Plane” that, in cooperation with the application execution framework and
-        continuum infrastructure, can enhance the overall orchestration of Cloud-edge resources.
-        Such plane is the materialization of the cognitive cloud, where decisions on the cloud and the edge are driven
-        by the continuously obtained knowledge and awareness of the computing environment through
-        AI, and particularly, neural networks and statistical learning, taking the challenge of
-        enabling these methods into low-power edge devices.
-
-      - **Virtual execution for the Cloud-edge continuum:** This goal focuses on a new universal and flexible execution
-        abstraction, we called it “Cloud-edge cells”, that will enable the execution of legacy and
-        highly granular applications in the cloud continuum. The new container-like execution abstraction will be
-        based on the WebAssembly technology. It will enable the execution of the same computation on
-        a wide range of cloud and embedded devices and make task execution migratable across different servers and devices in
-        the continuum infrastructure. We will integrate our WebAssembly executor with Kubernetes.
-        More specifically, we will contribute new features to Kubernetes that will support the efficient migration of
-        WebAssembly containers between different levels of the continuum, exploiting WebAssembly's capability for state
-        serialization.
-
-      - **Infrastructure support for the Cloud-edge continuum:** This objective is to prepare the infrastructure to turn
-        it into a virtual resource continuum, where the large set of Cloud-edge cells composing
-        applications can be allocated flexible resources, according to their dynamically changing needs. One of the
-        major challenges here is to design an infrastructure to support extremely short-lived Cloud-edge cells and
-        tasks (of 1 to 10ms, or less) and extremely intense bursts with fast data access requirements. This requires
-        delivering bare metal resource performance to storage, despite virtualization and dynamic reallocation, which
-        today is not possible in the cloud continuum. CLOUDSKIN will achieve this by leveraging high-performance I/O
-        (RDMA networking) and near-storage CPU compute capacity (GPUs, FPGAs) to the fine-grained application tasks. 
-
+    **Goals**
+    
+    *   **Smart management for the Cloud-edge continuum:** Develop an AI-based “Learning Plane” to automatically orchestrate cloud and edge resources. Decisions will continuously adapt to the environment, including on low-power edge devices.
+    *   **Virtual execution for the Cloud-edge continuum:** Create a universal execution abstraction (“Cloud-edge cells”) based on WebAssembly. It will enable efficient execution and migration of applications across the cloud-edge continuum, integrated with Kubernetes.
+    *   **Infrastructure support for the Cloud-edge continuum:** Build a flexible infrastructure that supports very short-lived tasks and intense data bursts. It will provide near bare-metal performance using RDMA networking and near-storage computing (GPUs, FPGAs).
 
 header:
   title: CloudSkin

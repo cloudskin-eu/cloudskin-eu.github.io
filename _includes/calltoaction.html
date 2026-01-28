@@ -1,19 +1,82 @@
 <section class="page-section" id="calltoaction">
     <div class="container">
+        <!-- Main Title -->
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Objectives</h2>
-                <hr class="light">
-                <p class="lead">{{ site.data.sitetext.objectives.text1 | markdownify }}</p>
-                <div class="col-lg-12 text-center">
-                    <div class="pt-5"></div>
-                    <img src="assets/img/{{ site.data.sitetext.objectives.image }}" alt="Neardata architecture">
-                    <!-- <figcaption class="text-faded">CLOUDSKIN architecture overview</figcaption> -->
-                    <div class="pt-5"></div>
-                    <div style="text-align: justify;"><p>{{ site.data.sitetext.objectives.text2 | markdownify }}</p></div>
-                    <br/>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HJxf5fhtlAs?si=lYOeI2fZtEVIqbUF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="col-lg-12 text-center mb-5">
+                <h2 class="section-heading text-uppercase">Objectives</h2>
+                <hr class="primary">
+            </div>
+        </div>
+
+        <!-- Introduction Text & Video Row -->
+        <div class="row align-items-center mb-5">
+            <!-- Text Column -->
+            <div class="col-lg-6">
+                <p class="lead text-muted" style="text-align: justify;">
+                    {{ site.data.sitetext.objectives.text1 | markdownify | remove: '<p>' | remove: '</p>' }}
+                </p>
+                <p class="text-muted" style="text-align: justify;">
+                    CloudSkin represents a leap forward in cognitive cloud-edge continuum platforms. By integrating AI-driven adaptability with secure execution environments, we aim to solve the complexity of heterogeneous resource management.
+                </p>
+            </div>
+            
+            <!-- Video Column -->
+            <div class="col-lg-6 text-center">
+                <!-- Usamos las clases de Bootstrap para el tamaño, pero los atributos de seguridad del iframe de Agricultura -->
+                <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
+                    <iframe class="embed-responsive-item" 
+                            src="https://www.youtube.com/embed/HJxf5fhtlAs?si=lYOeI2fZtEVIqbUF" 
+                            title="CloudSkin Project Overview" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                    </iframe>
                 </div>
+                <p class="text-muted mt-2"><small>CloudSkin Project Overview</small></p>
+            </div>
+        </div>
+
+        <!-- Goals Section with Icons -->
+        <div class="row mt-5">
+            <div class="col-lg-12 text-center mb-4">
+                <h3 class="section-subheading text-muted">Core Project Goals</h3>
+            </div>
+            
+            <!-- Goal 1 -->
+            <div class="col-md-4 text-center">
+                <span class="fa-stack fa-4x mb-4">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-brain fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">Smart Management</h4>
+                <p class="text-muted text-justify small">
+                    Develop an AI-based <strong>“Learning Plane”</strong> to automatically orchestrate cloud and edge resources. Decisions will continuously adapt to the environment, including on low-power edge devices.
+                </p>
+            </div>
+
+            <!-- Goal 2 -->
+            <div class="col-md-4 text-center">
+                <span class="fa-stack fa-4x mb-4">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-microchip fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">Virtual Execution</h4>
+                <p class="text-muted text-justify small">
+                    Create a universal execution abstraction (<strong>“Cloud-edge cells”</strong>) based on WebAssembly. It will enable efficient execution and migration of applications across the continuum, integrated with Kubernetes.
+                </p>
+            </div>
+
+            <!-- Goal 3 -->
+            <div class="col-md-4 text-center">
+                <span class="fa-stack fa-4x mb-4">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-server fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="service-heading">Infrastructure Support</h4>
+                <p class="text-muted text-justify small">
+                    Build a flexible infrastructure supporting short-lived tasks and intense data bursts. Providing near <strong>bare-metal performance</strong> using RDMA networking and near-storage computing (GPUs, FPGAs).
+                </p>
             </div>
         </div>
     </div>

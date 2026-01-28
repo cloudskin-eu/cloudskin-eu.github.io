@@ -26,43 +26,39 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
+        
+      {% assign navList = site.data.navigation.nav %}
       {% if site.locale and site.locale != "" and site.locale != nil %}
-        {%- for link in site.data.navigation[site.locale].nav -%}
-        <li class="nav-item">
-          {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
-          {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
-          {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
-      {% else %}
-        {%- for link in site.data.navigation.nav -%}
-        <li class="nav-item">
-          {%- if link.url -%}
-          <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
-            >{{ link.title }}</a
-          >
-          {%- elsif link.section -%}
-          <a
-            class="nav-link js-scroll-trigger"
-            href="{{ site.baseurl }}/#{{ link.section }}"
-            >{{ link.title }}</a
-          >
-          {%- else -%}
-          <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
-          {%- endif -%}
-        </li>
-        {%- endfor -%}
+        {% assign navList = site.data.navigation[site.locale].nav %}
       {% endif %}
+
+      {%- for link in navList -%}
+        {% if link.dropdown %}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownInner{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #343a40;">
+              {{ link.title }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownInner{{ forloop.index }}">
+              <a class="dropdown-item" href="{{ link.url }}">All Use Cases</a>
+              <div class="dropdown-divider"></div>
+              {% for sublink in link.dropdown %}
+                <a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.title }}</a>
+              {% endfor %}
+            </div>
+          </li>
+        {% else %}
+          <li class="nav-item">
+            {%- if link.url -%}
+            <a class="nav-link js-scroll-trigger" href="{{ link.url }}" style="color: #343a40;">{{ link.title }}</a>
+            {%- elsif link.section -%}
+            <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}" style="color: #343a40;">{{ link.title }}</a>
+            {%- else -%}
+            <a class="nav-link js-scroll-trigger" href="#" style="color: #343a40;">{{ link.title }}</a>
+            {%- endif -%}
+          </li>
+        {% endif %}
+      {%- endfor -%}
+
       </ul>
     </div>
   </div>

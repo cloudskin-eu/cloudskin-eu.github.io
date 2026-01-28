@@ -1,19 +1,17 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
-
-# English (default)
-# -----------------
 nav:
   - title: "Objectives"
     section: calltoaction
   - title: "Use Cases"
-    section: usecases
+    url: "/usecases/"
+    dropdown:
+      - title: "Edge Video Analytics"
+        url: "/usecases/edge-video/"
+      - title: "Metabolomics"
+        url: "/usecases/metabolomics/"
+      - title: "Surgery"
+        url: "/usecases/surgery/"
+      - title: "Agriculture IoT"
+        url: "/usecases/agriculture/"
   - title: "Results"
     section: results
   - title: "Impact"
