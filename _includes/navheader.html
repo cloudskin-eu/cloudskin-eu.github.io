@@ -1,9 +1,9 @@
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top {% if page.layout != 'home' %}navbar-shrink{% endif %}" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#page-top">
       {%- if site.logo -%}
-      <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}" />
+      <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path | relative_url }}" />
       {%- else -%}
       {{ site.title }}
       {%- endif -%}
@@ -19,13 +19,12 @@
         {% for link in site.data.navigation.nav %}
         
         {% if link.dropdown %}
-        <!-- Dropdown Menu -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{ link.title }}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
-            <a class="dropdown-item" href="{{ link.url }}">All Use Cases</a> <!-- Link to main index -->
+            <a class="dropdown-item" href="{{ link.url }}">{{ site.data.sitetext.use_cases.title | default: "All Use Cases" }}</a>
             <div class="dropdown-divider"></div>
             {% for sublink in link.dropdown %}
               <a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.title }}</a>
@@ -33,12 +32,11 @@
           </div>
         </li>
         {% else %}
-        <!-- Standard Link -->
         <li class="nav-item">
           {%- if link.url -%}
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
           {%- elsif link.section -%}
-          <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+          <a class="nav-link js-scroll-trigger" href="{{ site.baseurl }}/#{{ link.section }}">{{ link.title }}</a>
           {%- else -%}
           <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}
@@ -53,11 +51,12 @@
 <!-- End Navigation -->
 
 <!-- Header -->
+{% if page.layout == 'home' %}
 <header class="masthead">
   <div class="container">
     <div class="intro-text">
       {%- if site.data.sitetext.header.title -%}
-      <div class="intro-heading">{{ site.data.sitetext.header.title | markdownify }}</div>
+      <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.title | markdownify }}</div>
       {%- endif -%}
       {%- if site.data.sitetext.header.text -%}
       <div class="intro-lead-in">{{ site.data.sitetext.header.text | markdownify }}</div>
@@ -69,4 +68,5 @@
     </div>
   </div>
 </header>
+{% endif %}
 <!-- End Header -->
