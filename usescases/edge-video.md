@@ -40,13 +40,6 @@ permalink: /usecases/edge-video/
         </div>
     </div>
 
-    <style>
-        .hover-zoom:hover img {
-            transform: scale(1.02);
-        }
-        h3 { margin-top: 40px; border-left: 5px solid #007bff; padding-left: 15px; }
-    </style>
-
     <h3>Introduction of the problem</h3>
     <p class="text-justify">In automotive testing environments, such as racing circuits, we face a critical challenge: video analytics for vehicle detection requires real-time processing. Traditional cloud-only solutions introduce delays that compromise performance and safety. We needed a way to intelligently orchestrate workloads across cloud and edge resources, ensuring applications can migrate dynamically to maintain quality of service under strict latency constraints.</p>
 
