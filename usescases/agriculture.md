@@ -14,8 +14,19 @@ permalink: /usecases/agriculture/
     <p class="text-justify">In the agricultural sector, sensor data is highly fragmented and its use is often limited to irrigation control service providers. This restricted view of the information greatly hinders the development of advanced data analytics solutions and the application of technologies for automation and decision support.</p>
     <p class="text-justify">Cloudskin proposes a "from ground to cloud" solution that establishes standards and mechanisms for capturing and sharing sensor information in a scalable and secure manner. This includes demonstrating the feasibility of developing advanced geospatial analytics services integrated with this data, including optimizing processing costs in distributed cloud services.</p>
     
-    <div class="text-center mt-4 mb-4">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HJxf5fhtlAs?si=lYOeI2fZtEVIqbUF&start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="row justify-content-center mt-4 mb-4">
+        <div class="col-md-6 text-center mb-3">
+             <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8fPio-Ug9Ow" title="New Agriculture Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="text-muted mt-2"><small>Smart Agriculture Overview</small></p>
+        </div>
+        <div class="col-md-6 text-center mb-3">
+            <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HJxf5fhtlAs" title="Agriculture Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="text-muted mt-2"><small>Agriculture Data Space Demo</small></p>
+        </div>
     </div>
 
     <h3>Introduction of the problem</h3>
@@ -27,6 +38,15 @@ permalink: /usecases/agriculture/
     <p class="text-justify">Cloudskin addresses these challenges through two experiments:</p>
     <p class="text-justify">The first involves developing an agricultural and environmental dataspace in the cloud. This agricultural dataspace ensures data usage and sharing through upload options, dataset usage contract management, customized management using data dictionaries to standardize information semantics, and unified search and dataset management services for projects that feed back into the data space.</p>
     <p class="text-justify">The second challenge is addressed by developing a geospatial analytics service integrated into the data space. This service performs advanced data analysis and management, leveraging artificial intelligence models for the predictive estimation of computing resources needed to run these services, which are based on pipelines related to agricultural and geospatial data analysis.</p>
+
+    <div class="row mb-4">
+        <div class="col-md-6 mb-3">
+            <img src="/assets/img/usecases/agriculture.png" class="img-fluid rounded shadow" alt="Field Overview">
+        </div>
+        <div class="col-md-6 mb-3">
+            <img src="/assets/img/usecases/smart_agriculture.png" class="img-fluid rounded shadow" alt="IoT in Agriculture">
+        </div>
+    </div>
 
     <h3>How it will work</h3>
     <p class="text-justify">As a result of the project, we will have an agricultural and environmental dataspace that allows for the secure search and sharing of sensor information. We will therefore be able to incorporate all available sensor data from a geographic area, such as the Region of Murcia, after the necessary acceptance of its terms of use.</p>

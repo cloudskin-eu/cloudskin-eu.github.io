@@ -10,8 +10,25 @@ permalink: /usecases/metabolomics/
         <h2 class="section-heading text-uppercase">Metabolomics</h2>
     </div>
 
+    <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+            <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/islDuT3ZlJs" title="Metabolomics Use Case" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
     <h3>Brief introduction</h3>
     <p class="text-justify">Modern metabolomics relies on large-scale analysis of mass spectrometry images to support biomedical research. The METASPACE platform provides automated image annotation using artificial intelligence, helping researchers distinguish meaningful biological signals from artefacts in complex datasets.</p>
+
+    <div class="row mb-4">
+        <div class="col-md-6 mb-3">
+            <img src="/assets/img/usecases/metabolomics.png" class="img-fluid rounded shadow" alt="Metabolomics Interface 1">
+        </div>
+        <div class="col-md-6 mb-3">
+            <img src="/assets/img/usecases/metabolomics2.png" class="img-fluid rounded shadow" alt="Metabolomics Interface 2">
+        </div>
+    </div>
 
     <h3>Introduction of the problem</h3>
     <p class="text-justify">The demand for image analysis in METASPACE is highly unpredictable: some days involve processing tens of thousands of images, while at other times there is almost no activity. This situation is similar to a concert ticket website, which may be almost idle most of the time but suddenly experiences massive traffic when tickets for a popular artist go on sale. Traditional cloud systems must either keep resources running all the time or react too slowly when demand suddenly spikes.</p>

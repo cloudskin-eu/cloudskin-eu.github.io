@@ -10,8 +10,26 @@ permalink: /usecases/surgery/
         <h2 class="section-heading text-uppercase">Surgery</h2>
     </div>
 
+    <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+            <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qm5FzvYef9Y" title="Surgery Use Case" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
     <h3>Brief introduction</h3>
     <p class="text-justify">In minimally invasive surgery, AI-powered video analytics assist surgeons by detecting instruments, recognizing operative phases, and segmenting anatomical structures in real-time. At the National Center for Tumor Diseases (NCT) Dresden, endoscopic cameras generate high-volume video streams that must be processed with low latency while handling sensitive patient data. CloudSkin enables a smart infrastructure for computer-assisted surgery that spans from operating room edge devices to central cloud resources.</p>
+
+    <!-- Sección de las dos imágenes nuevas -->
+    <div class="row align-items-center mt-4 mb-5">
+        <div class="col-md-6 mb-3 text-center">
+            <img src="/assets/img/usecases/surgery_or.png" class="img-fluid rounded shadow-lg" alt="Surgical Operating Room" style="width: 100%;">
+        </div>
+        <div class="col-md-6 mb-3 text-center">
+            <img src="/assets/img/usecases/surgery_dashboard.png" class="img-fluid rounded shadow-lg" alt="Pravega Operation Dashboard" style="width: 100%;">
+        </div>
+    </div>
 
     <h3>Introduction of the problem</h3>
     <p class="text-justify">Deploying surgical AI video analytics presents several challenges. First, different AI models have varying software dependencies and hardware requirements, making deployment manual and error-prone. Second, surgical workloads compete for limited edge CPU and GPU resources, where naive allocation leads to poor utilization or degraded performance. Third, surgery rooms exhibit daily usage patterns that cause workload fluctuations - scaling streaming infrastructure up or down can introduce latency spikes that threaten real-time ingestion and inference. Finally, current streaming systems tier data from edge to cloud in a simplistic manner, missing opportunities for in-transit data enrichment and data management.</p>

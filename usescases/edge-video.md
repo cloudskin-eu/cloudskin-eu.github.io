@@ -10,8 +10,42 @@ permalink: /usecases/edge-video/
         <h2 class="section-heading text-uppercase">Edge orchestration and video analytics</h2>
     </div>
 
+    <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+            <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pb_R3PUivLw" title="Edge Video Analytics Use Case" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
     <h3>Brief introduction</h3>
     <p class="text-justify">In mobility and automotive environments, data must be processed where it is generated to enable real-time decisions. Video analytics for connected vehicles places extreme demands on latency, resilience, and service continuity. CloudSkin enables a seamless cloud-to-edge continuum that allows these workloads to run at the optimal location, ensuring high performance and reliability in dynamic scenarios.</p>
+
+    <div class="row align-items-center mt-4 mb-5">
+        <div class="col-md-7 mb-3">
+            <div class="hover-zoom">
+                <img src="/assets/img/usecases/cars.png" 
+                    class="img-fluid rounded shadow-lg" 
+                    alt="Connected Cars" 
+                    style="width: 100%; transition: transform .3s;">
+            </div>
+        </div>
+        <div class="col-md-5 mb-3">
+            <div class="hover-zoom">
+                <img src="/assets/img/usecases/dashboard.png" 
+                    class="img-fluid rounded shadow-lg" 
+                    alt="Analytics Dashboard" 
+                    style="width: 100%; max-height: 400px; object-fit: contain; background: #fff; transition: transform .3s;">
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .hover-zoom:hover img {
+            transform: scale(1.02);
+        }
+        h3 { margin-top: 40px; border-left: 5px solid #007bff; padding-left: 15px; }
+    </style>
 
     <h3>Introduction of the problem</h3>
     <p class="text-justify">In automotive testing environments, such as racing circuits, we face a critical challenge: video analytics for vehicle detection requires real-time processing. Traditional cloud-only solutions introduce delays that compromise performance and safety. We needed a way to intelligently orchestrate workloads across cloud and edge resources, ensuring applications can migrate dynamically to maintain quality of service under strict latency constraints.</p>
