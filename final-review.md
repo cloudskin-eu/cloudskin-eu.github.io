@@ -141,7 +141,6 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 		<thead>
 			<tr>
 				<th>Title</th>
-				<th>Description</th>
 				<th>Repository</th>
 			</tr>
 		</thead>
@@ -149,7 +148,6 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 			{% for artifact in site.data.sitetext.final_review.artifacts %}
 			<tr>
 				<td>{{ artifact.title }}</td>
-				<td>{{ artifact.description }}</td>
 				<td><a href="{{ artifact.link }}"><i class="fas fa-external-link-alt"></i></a></td>
 			</tr>
 			{% endfor %}
