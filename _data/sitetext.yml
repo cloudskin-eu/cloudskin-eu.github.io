@@ -754,7 +754,7 @@ final_review:
       duration: 25 mins
       lead: PO
     - time: "16:35"
-      subject: End of review
+      subject: End of review 
       duration:
       lead:
 
