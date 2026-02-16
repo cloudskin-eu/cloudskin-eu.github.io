@@ -66,9 +66,9 @@ permalink: /usecases/agriculture/
     <div class="row justify-content-center mt-4 mb-5">
         <div class="col-lg-10">
             <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B76Hb57VUkg" title="Agriculture Final Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B76Hb57VUkg" title="Agricultural Final Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <p class="text-muted mt-2 text-center"><small>Agriculture Final Video</small></p>
+            <p class="text-muted mt-2 text-center"><small>Agricultural Final Video</small></p>
         </div>
     </div>
     
