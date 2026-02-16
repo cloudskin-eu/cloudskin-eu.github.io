@@ -816,39 +816,52 @@ final_review:
       slides: "#"
   
   artifacts:
-    - title: Lithops Serve
-      description: An open source framework for big data analytics and embarrassingly parallel jobs, that provides an universal API for building parallel applications in the cloud.
-      link: "https://github.com/ZikBurns/lithopserve"
-    - title: Data-connector 
-      description: Open-source software data-connector as an agent framework for smart and autonomous management.
-      link: "https://github.com/bsc-scanflow/scanflow"
-    - title: Generic Ephemeral Data Store (GEDS) 
-      description: GEDS implements the efficient caching and exchange of ephemeral data using the load/store semantics of an object store.
-      link: "https://github.com/IBM/GEDS"
-    - title: ConfidentialQuark 
-      description: Equipping prominent fields such as Artificial Intelligence and serverless computing with a confidential approach would be essential for various use cases in the future.
-      link: "https://github.com/QuarkContainer/Quark/tree/cc_quark_amd_sev_snp"
-    - title: NearbyOne v2.0 
-      description: NearbyOne platform carries intra- and inter-domain orchestration capabilities and addresses the problem of xNF (CNF, VNF, etc.), as well as application orchestration in the cloud continuum.
-      link: " https://github.com/cloudskin-eu/Mobility-use-case/tree/main/NearbyBlocks"
-    - title: Agricultural Dataspace 
-      description: Data space for agriculture is capable of attracting data providers, to whom it offers mechanisms of reliability and use of information, capable of starting the generation around this platfotm.
-      link: "https://cloudskin.alternatecno.es/dataspace.html"
-    - title: Surgical Navigation 
-      description: Surgical navigation, where segmentation, 3D mapping, and other extracted features are combined with pre-operative models to provide visual guideance.
-      link: "#"
-    - title: Pravega
-      description: Pravega is a tiered storage system for data streams that is at the core of Dell Streaming Data Platform (SDP) product.
-      link: "https://github.com/pravega/pravega"
-    - title: C-Cells 
-      description: We have developed scheduling and orchestration policies and live migration of C-Cells in Faabric.
-      link: "https://github.com/faasm/faabric"
-    - title: Glider 
-      description: Glider ephemeral storage system with in-storage computation.
-      link: "https://github.com/CLOUDLAB-URV/glider-store"
-    - title: Nexus
-      description: Nexus Streamlets for NCT computer-assisted surgery use case.
+    - title: "Metabolomics-lithopserve"
+      link: "https://github.com/cloudskin-eu/metabolomics-lithopserve"
+    - title: "GEDS"
+      link: "https://github.com/cloudskin-eu/GEDS"
+    - title: "GEDS Wasm Units"
+      link: "https://github.com/cloudskin-eu/GEDS_Wasm_Units"
+    - title: "Granular Management of Compute-Intensive Applications with Faasm"
+      link: "https://github.com/cloudskin-eu/granny"
+    - title: "Confidential inference and streaming using SCONE"
+      link: "https://github.com/cloudskin-eu/confidential_liver_segmentation"
+    - title: "CCGrid2025 artifacts related to Let It Unthread"
+      link: "https://github.com/cloudskin-eu/CCGrid2025-artifacts-Let-It-Unthread"
+    - title: "Metabolomics Demo"
+      link: "https://github.com/cloudskin-eu/metabolomics-demo"
+    - title: "Artifact for Serverless Data Analytics (Ortzi DataFrame)"
+      link: "https://github.com/cloudskin-eu/ortzi-CLOUD2025"
+    - title: "Benchmarks for Sconified Pravega server images"
+      link: "https://github.com/cloudskin-eu/scone-pravega"
+    - title: "Integration of Pravega and GEDS for NCT computer-assisted surgery"
+      link: "https://github.com/cloudskin-eu/pravega-geds"
+    - title: "Data-connector, intelligent service migration planner"
+      link: "https://github.com/cloudskin-eu/scanflow-data-connector"
+    - title: "Nearby blocks for the mobility use case"
+      link: "https://github.com/cloudskin-eu/Mobility-use-case/"
+    - title: "Pravega Trace-based Autoscaler"
+      link: "https://github.com/cloudskin-eu/pravega-predictive-autoscaling"
+    - title: "Nexus NCT Streamlets"
       link: "https://github.com/cloudskin-eu/nexus-nct-streamlets"
+    - title: "Agricultural dataspace source files"
+      link: "https://github.com/developerAlternatecno/cloudskin"
+    - title: "Water consumption experiment source files"
+      link: "https://github.com/developerAlternatecno/water-consumption-alterna"
+    - title: "Pravega: an open source distributed storage service implementing Streams"
+      link: "https://github.com/pravega/pravega"
+    - title: "Pravega GStreamer: plugins to read and write Pravega streams"
+      link: "https://github.com/pravega/gstreamer-pravega"
+    - title: "NCT demos repository"
+      link: "https://gitlab.com/nct_tso_public/cloudskin/"
+    - title: "PoC Lithops Serve with TEE"
+      link: "https://github.com/ardhipoetra/lithopserve"
+    - title: "PoC liver segmentation with TEE"
+      link: "https://gitlab.com/docear/segmentation_docker/-/tree/ardhi/confidential_infer_stream?ref_type=heads"
+    - title: "Faasm Cloud-C-Cells prototype"
+      link: "https://github.com/ardhipoetra/faasm"
+    - title: "NearbyOne north bound interface Client"
+      link: "https://github.com/nbycomp/inno-nbi-service-orchestration-api-client"
   
 news:
   title: News
