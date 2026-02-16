@@ -741,19 +741,19 @@ final_review:
           - Amendments
       duration: 20 mins
       lead: Coordinator
-    - time: "15:50"
+    - time: "15:40"
       subject: Final remarks
       duration: 10 mins
       lead: PO
-    - time: "15:40"
+    - time: "15:50"
       subject: "Coffee break / Private meeting: reviewers and PO"
       duration: 20 mins
       lead: PO
-    - time: "16:00"
+    - time: "16:10"
       subject: Oral feedback from reviewers and comment from project
       duration: 25 mins
       lead: PO
-    - time: "16:25"
+    - time: "16:35"
       subject: End of review
       duration:
       lead:
@@ -775,36 +775,45 @@ final_review:
       link: "https://docs.google.com/presentation/d/16yDy4n5os32R7YrH8f78460v_LEz8t-5/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
 
   videos:
-    - title: WP5 - Agriculture use case 
+    - title: WP5 - Use Case: Agriculture IoT
       video: "https://drive.google.com/file/d/1WNOdnPYuHtcMGCGmeIStH1h0DVRX16gw/view?usp=drive_link"
       slides: "https://docs.google.com/presentation/d/1WdcGtfjl4KnNR_rav2siW4JR9cpp_U3e/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - Agriculture use case (First video)
+    - title: WP5 - Use Case: Agriculture IoT (First video)
       video: "https://www.youtube.com/watch?v=HJxf5fhtlAs"
-      slides: ""
-    - title: WP5 - Agriculture use case (Final video)
+      slides: "#"
+    - title: WP5 - Use Case: Agriculture IoT (Final video)
       video: "https://youtu.be/B76Hb57VUkg"
-      slides: ""
-    - title: WP5 - Agriculture use case (1st Exp. Agricultural Dataspace)
+      slides: "#"
+    - title: WP5 - Use Case: Agriculture IoT (1st Exp. Agricultural Dataspace)
       video: "https://drive.google.com/file/d/1mhLeIjKu1_6gDCECfS-gq1M5LXUg-FeC/view?usp=drive_link"
-      slides: ""
-    - title: WP5 - Agriculture use case (2nd Exp. CloudSkin demo)
+      slides: "#"
+    - title: WP5 - Use Case: Agriculture IoT (2nd Exp. CloudSkin demo)
       video: "https://drive.google.com/file/d/1WNfqm8vBcR8AqeqXnOHCJxNOdiqojub-/view?usp=drive_link"
-      slides: ""
-    - title: WP5 - Demo application placement for the mobility use case
-      video: "https://drive.google.com/file/d/18lKZnt6KDfRa7ZuKX4ry1rOUN7_fZVjw/view?usp=drive_link"
       slides: "#"
-    - title: WP5 - Use Case Introduction - Metabolomics
-      video: "https://drive.google.com/file/d/1tFgEDaJcRM7kcffcPk8fOQGKW531oMtH/view?usp=sharing"
-      slides: "https://docs.google.com/presentation/d/19mG_w4gLbQJ7hkunBOBg3CXcdmR0SlFz/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - Metabolomics demo
-      video: "https://drive.google.com/file/d/1c6EidXX_lMRh_92F8acI50PDAdvuKlYq/view?usp=sharing"
-      slides: "https://docs.google.com/presentation/d/1FajtgyibYby6qaLK6rtadYZos61Q5kEd/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - NCT-DELL Pravega Cluster
-      video: "https://drive.google.com/file/d/1WB9aCk7-E6nJ94W0yZuxQfhG3M90TFLO/view?usp=drive_link"
+    - title: WP5 - Use Case: Edge Video Analytics
+      video: "https://docs.google.com/presentation/d/1k5Nam4C3a47fr_zVHM7FOazCrdyf15-k/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
+      slides: "https://drive.google.com/file/d/12F24MT8SiQaH0Ew7jAFOs2XazZSkyXR1/view?usp=drive_link"
+    - title: WP5 - Use Case: Edge Video Analytics - Section 1 Migration
+      video: "https://drive.google.com/file/d/1U6Pv0AvNzya6x2bN2Zl3ldnK-siOKwxF/view?usp=drive_link"
       slides: "#"
-    - title: WP5 - Computer-Assisted Surgery (CAS) Use Case
-      video: "#"
-      slides: "https://docs.google.com/presentation/d/1tTmHGqdHu0dA_ZJ9eTc7w3ugoJhStPrn/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5 - Use Case: Edge Video Analytics (Section 2 DNS)
+      video: "https://drive.google.com/file/d/1jX3m9cIjldE4t7wc3tI-sCZTUD_-srxW/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - Use Case: Metabolomics
+      video: "https://drive.google.com/file/d/1IXw94HF8bJr5EtA3BZ9qxU_4bZcXan6y/view?usp=drive_link"
+      slides: "https://drive.google.com/file/d/1cbrfDuze-8Fi9ugVgl76jpiMDkR7gBcj/view?usp=drive_link"
+    - title: WP5 - Use Case: Metabolomics (Demo 2)
+      video: "https://drive.google.com/file/d/1NGjQz8UG8y7-IeV4u6MAVBcQyBnevX_j/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - Use Case: Metabolomics (Demo 3)
+      video: "https://drive.google.com/file/d/1jR24eU-8Z_1X4l0WAn_F14ms7qCErKeE/view?usp=drive_link"
+      slides: "#"
+    - title: WP5 - Use Case: Surgery (Pravega predictive autoscaling for NCT demo)
+      video: "https://drive.google.com/file/d/1QiTrgPkuc19ApMMcgXY0IG7j6Meb9ABa/view?usp=drive_link"
+      slides: "https://docs.google.com/presentation/d/1AHish5vr2NopP8Et4RfYcdxp_y9vxibh/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5 - Use Case: Surgery (Nexus NCT model)
+      video: "https://drive.google.com/file/d/19hmOFRJh-RpsZPXh0lEbH7Lyi7JW2DO5/view?usp=drive_link"
+      slides: "#"
   
   artifacts:
     - title: Lithops Serve
@@ -837,6 +846,9 @@ final_review:
     - title: Glider 
       description: Glider ephemeral storage system with in-storage computation.
       link: "https://github.com/CLOUDLAB-URV/glider-store"
+    - title: Nexus
+      description: Nexus Streamlets for NCT computer-assisted surgery use case.
+      link: "https://github.com/cloudskin-eu/nexus-nct-streamlets"
   
 news:
   title: News
