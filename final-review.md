@@ -140,7 +140,7 @@ __Chair__: Marc Sánchez-Artigas (Coordinator)
 	<table class="table table-striped" style="text-align: left;">
 		<thead>
 			<tr>
-				<th>Title / Description</th>
+				<th>Title and description</th>
 				<th>Repository</th>
 			</tr>
 		</thead>
