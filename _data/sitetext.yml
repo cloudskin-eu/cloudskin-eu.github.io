@@ -861,8 +861,7 @@ final_review:
     - title: "Faasm Cloud-C-Cells prototype"
       link: "https://github.com/ardhipoetra/faasm"
     - title: "NearbyOne north bound interface Client"
-      link: "https://github.com/nbycomp/inno-nbi-service-orchestration-api-client"
-  
+      link: "https://github.com/nbycomp/inno-nbi-service-orchestration-api-client"  
 news:
   title: News
 
