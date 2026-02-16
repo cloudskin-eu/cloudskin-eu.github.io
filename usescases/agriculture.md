@@ -61,5 +61,16 @@ permalink: /usecases/agriculture/
     <h3>Summary of some results</h3>
     <p class="text-justify">First, the proposed cloud data space, ideally at a European level, improves the secure use and exploitation of sensor data, especially on small and medium-sized farms. This solution abstracts the data from its technical origin, establishing a communication channel between field sensors and intermediate servers, transforming disconnected data into accessible information.</p>
     <p class="text-justify">Furthermore, demonstrating the use of the technology in serverless, distributed environments allows us to showcase the ability to leverage this information and automate decision-making processes. Specifically, our indicators show a 79.9% optimization in terms of speed and a 30% reduction in resource costs, compared to resource consumption without the support of a predictive system using artificial intelligence. These results demonstrate how this project lays the foundation for the development of advanced global information services, paving the way for improved production processes and decision-making in the agricultural and nature conservation sectors.</p>
+
+    <!-- Final Video -->
+    <div class="row justify-content-center mt-4 mb-5">
+        <div class="col-lg-10">
+            <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B76Hb57VUkg" title="Agriculture Final Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="text-muted mt-2 text-center"><small>Agriculture Final Video</small></p>
+        </div>
+    </div>
+    
 </div>
 <div style="height: 50px;"></div>
