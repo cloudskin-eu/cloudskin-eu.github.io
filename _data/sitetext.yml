@@ -692,7 +692,7 @@ final_review:
       lead: Coordinator
     - time: "9:50"
       subject: |-
-        WP2 – Architecture
+        WP2 – Architecture (20 mins)
         Q&A
       duration: 30 mins
       lead: Coordinator
@@ -702,13 +702,13 @@ final_review:
       lead:
     - time: "10:50"
       subject: |-
-        WP3 – Infrastructure Support for the Cloud-edge continuum
+        WP3 – Infrastructure Support for the Cloud-edge continuum (25 mins)
         Q&A
       duration: 35 mins
       lead: IBM
     - time: "11:25"
       subject: |-
-        WP4 – Virtual Execution for the Cloud-edge Continuum
+        WP4 – Virtual Execution for the Cloud-edge Continuum (25 mins)
         Q&A
       duration: 35 mins
       lead: IMP
@@ -720,28 +720,28 @@ final_review:
       subject: |-
         WP5 – Smart Cloud-edge Continuum
           - Learning Plane (25 mins)
-          - Automotive use case (10 mins)
-          - Metabolomics use case (15 mins)
-          - Computer-assisted surgery use case (15 mins)
+          - Automotive use case (20 mins)
+          - Metabolomics use case (20 mins)
+          - Computer-assisted surgery use case (20 mins)
           - Agriculture use case (10 mins)
           - Q&A (15 mins)
-      duration: 90 mins
+      duration: 110 mins
       lead: BSC
-    - time: "14:30"
+    - time: "14:50"
       subject: |-
-        WP6 – Communication and Impact
+        WP6 – Communication and Impact (20 mins)
           - Promotional videos
         Q&A
-      duration: 35 mins
+      duration: 30 mins
       lead: NBC
-    - time: "15:05"
+    - time: "15:20"
       subject: |-
-        WP1 – Project Management
+        WP1 – Project Management (15 mins)
           - Resource accountability, financial information
           - Amendments
-      duration: 25 mins
+      duration: 20 mins
       lead: Coordinator
-    - time: "15:30"
+    - time: "15:50"
       subject: Final remarks
       duration: 10 mins
       lead: PO
@@ -775,18 +775,21 @@ final_review:
       link: "https://docs.google.com/presentation/d/16yDy4n5os32R7YrH8f78460v_LEz8t-5/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
 
   videos:
-    - title: WP2 - Use Case Introduction - Computer Assisted Surgery
-      video: "https://drive.google.com/file/d/11a7jPGfBwEqqIweKgs5NR9JAeRuvIF3c/view?usp=drive_link"
-      slides: "https://docs.google.com/presentation/d/1kcERbSR0tq4InuXFAMdWAyLbmpBIj4KX/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP3 - Dell-IBM Pravega GEDS integration
-      video: "https://drive.google.com/file/d/1dEwQmi5DBq5UInC2fFV7C88iOpEPzw6i/view?usp=drive_link"
-      slides: "#"
-    - title: WP4 - Migration Micro Benchmark
-      video: "https://drive.google.com/file/d/1JdXPF9d1JLGnxR_rb7tNft0c0Z1JY2u1/view?usp=drive_link"
-      slides: "#"
-    - title: WP5 - Promotional video of the Agriculture use case
+    - title: WP5 - Agriculture use case 
+      video: "https://drive.google.com/file/d/1WNOdnPYuHtcMGCGmeIStH1h0DVRX16gw/view?usp=drive_link"
+      slides: "https://docs.google.com/presentation/d/1WdcGtfjl4KnNR_rav2siW4JR9cpp_U3e/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
+    - title: WP5 - Agriculture use case (First video)
       video: "https://www.youtube.com/watch?v=HJxf5fhtlAs"
-      slides: "#"
+      slides: ""
+    - title: WP5 - Agriculture use case (Final video)
+      video: "https://youtu.be/B76Hb57VUkg"
+      slides: ""
+    - title: WP5 - Agriculture use case (1st Exp. Agricultural Dataspace)
+      video: "https://drive.google.com/file/d/1mhLeIjKu1_6gDCECfS-gq1M5LXUg-FeC/view?usp=drive_link"
+      slides: ""
+    - title: WP5 - Agriculture use case (2nd Exp. CloudSkin demo)
+      video: "https://drive.google.com/file/d/1WNfqm8vBcR8AqeqXnOHCJxNOdiqojub-/view?usp=drive_link"
+      slides: ""
     - title: WP5 - Demo application placement for the mobility use case
       video: "https://drive.google.com/file/d/18lKZnt6KDfRa7ZuKX4ry1rOUN7_fZVjw/view?usp=drive_link"
       slides: "#"
