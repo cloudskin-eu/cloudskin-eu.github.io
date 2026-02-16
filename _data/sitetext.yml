@@ -775,43 +775,43 @@ final_review:
       link: "https://docs.google.com/presentation/d/16yDy4n5os32R7YrH8f78460v_LEz8t-5/edit?usp=sharing&ouid=107087671061201658185&rtpof=true&sd=true"
 
   videos:
-    - title: WP5 - Use Case: Agriculture IoT
+    - title: "WP5 - Use Case: Agriculture IoT"
       video: "https://drive.google.com/file/d/1WNOdnPYuHtcMGCGmeIStH1h0DVRX16gw/view?usp=drive_link"
       slides: "https://docs.google.com/presentation/d/1WdcGtfjl4KnNR_rav2siW4JR9cpp_U3e/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - Use Case: Agriculture IoT (First video)
+    - title: "WP5 - Use Case: Agriculture IoT (First video)"
       video: "https://www.youtube.com/watch?v=HJxf5fhtlAs"
       slides: "#"
-    - title: WP5 - Use Case: Agriculture IoT (Final video)
+    - title: "WP5 - Use Case: Agriculture IoT (Final video)"
       video: "https://youtu.be/B76Hb57VUkg"
       slides: "#"
-    - title: WP5 - Use Case: Agriculture IoT (1st Exp. Agricultural Dataspace)
+    - title: "WP5 - Use Case: Agriculture IoT (1st Exp. Agricultural Dataspace)"
       video: "https://drive.google.com/file/d/1mhLeIjKu1_6gDCECfS-gq1M5LXUg-FeC/view?usp=drive_link"
       slides: "#"
-    - title: WP5 - Use Case: Agriculture IoT (2nd Exp. CloudSkin demo)
+    - title: "WP5 - Use Case: Agriculture IoT (2nd Exp. CloudSkin demo)"
       video: "https://drive.google.com/file/d/1WNfqm8vBcR8AqeqXnOHCJxNOdiqojub-/view?usp=drive_link"
       slides: "#"
-    - title: WP5 - Use Case: Edge Video Analytics
+    - title: "WP5 - Use Case: Edge Video Analytics"
       video: "https://docs.google.com/presentation/d/1k5Nam4C3a47fr_zVHM7FOazCrdyf15-k/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
       slides: "https://drive.google.com/file/d/12F24MT8SiQaH0Ew7jAFOs2XazZSkyXR1/view?usp=drive_link"
-    - title: WP5 - Use Case: Edge Video Analytics - Section 1 Migration
+    - title: "WP5 - Use Case: Edge Video Analytics - Section 1 Migration"
       video: "https://drive.google.com/file/d/1U6Pv0AvNzya6x2bN2Zl3ldnK-siOKwxF/view?usp=drive_link"
       slides: "#"
-    - title: WP5 - Use Case: Edge Video Analytics (Section 2 DNS)
+    - title: "WP5 - Use Case: Edge Video Analytics (Section 2 DNS)"
       video: "https://drive.google.com/file/d/1jX3m9cIjldE4t7wc3tI-sCZTUD_-srxW/view?usp=drive_link"
       slides: "#"
-    - title: WP5 - Use Case: Metabolomics
+    - title: "WP5 - Use Case: Metabolomics"
       video: "https://drive.google.com/file/d/1IXw94HF8bJr5EtA3BZ9qxU_4bZcXan6y/view?usp=drive_link"
       slides: "https://drive.google.com/file/d/1cbrfDuze-8Fi9ugVgl76jpiMDkR7gBcj/view?usp=drive_link"
-    - title: WP5 - Use Case: Metabolomics (Demo 2)
+    - title: "WP5 - Use Case: Metabolomics (Demo 2)"
       video: "https://drive.google.com/file/d/1NGjQz8UG8y7-IeV4u6MAVBcQyBnevX_j/view?usp=drive_link"
       slides: "#"
-    - title: WP5 - Use Case: Metabolomics (Demo 3)
+    - title: "WP5 - Use Case: Metabolomics (Demo 3)"
       video: "https://drive.google.com/file/d/1jR24eU-8Z_1X4l0WAn_F14ms7qCErKeE/view?usp=drive_link"
       slides: "#"
-    - title: WP5 - Use Case: Surgery (Pravega predictive autoscaling for NCT demo)
+    - title: "WP5 - Use Case: Surgery (Pravega predictive autoscaling for NCT demo)"
       video: "https://drive.google.com/file/d/1QiTrgPkuc19ApMMcgXY0IG7j6Meb9ABa/view?usp=drive_link"
       slides: "https://docs.google.com/presentation/d/1AHish5vr2NopP8Et4RfYcdxp_y9vxibh/edit?usp=drive_link&ouid=107087671061201658185&rtpof=true&sd=true"
-    - title: WP5 - Use Case: Surgery (Nexus NCT model)
+    - title: "WP5 - Use Case: Surgery (Nexus NCT model)"
       video: "https://drive.google.com/file/d/19hmOFRJh-RpsZPXh0lEbH7Lyi7JW2DO5/view?usp=drive_link"
       slides: "#"
   
