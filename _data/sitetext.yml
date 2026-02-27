@@ -78,7 +78,7 @@ results:
       file: ../assets/deliverables/CloudSkin_D3.3_Public.pdf
     - title: D3.4
       subtitle: Reference implementation of Cloud native Infrastructure*
-      file: ../assets/deliverables/CloudSkin_D3.4_Public.pdf
+      file: ../assets/deliverables/CloudSkin_D3_4_Public.pdf
     - title: D4.1
       subtitle: Initial prototype for Cloud-edge cells
       file: ../assets/deliverables/CloudSkin_D4.1_Public.pdf
